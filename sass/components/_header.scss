@@ -1,0 +1,55 @@
+.header {
+    margin-bottom: 5rem;
+
+    &__carousel-img {
+        position: relative;
+        object-fit: cover;
+        height: 91.2vh;
+        width: 100%;
+    }
+
+    &__carousel-content {
+        background: $color-transparent-white;
+        border-bottom-left-radius: 1.7rem;
+        border-bottom-right-radius: 1.7rem;
+        padding: 4rem 5.5rem;
+        position: absolute;
+        width: 35rem;
+        z-index: 100;
+        top: 0;
+        left: 16.5%;
+
+        @media (max-width: 31.25em) {
+            padding: 3rem;
+            width: 20rem;
+            left: 7%;
+        }
+
+        & h2 {
+            line-height: 1.4;
+            font-size: 2.3rem;
+            
+            @media (max-width: 31.25em) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    &__carousel-logo {
+        max-width: 15rem;
+    }
+}
+
+.carousel-indicators {
+    & button {
+        border: 1px solid transparent!important;
+        border-radius: 5rem!important;
+        width: 2.8rem!important;
+    }
+
+    & .active {
+        background: $color-tertiary!important;
+        border-radius: 5rem!important;
+        width: 2.8rem!important;
+    }
+}

@@ -1,0 +1,45 @@
+.help {
+    background: $color-tertiary;
+    padding: 8rem 4rem;
+   
+    &__flex {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    &__image {
+        max-width: 46rem;
+        max-height: 51.1rem;
+
+        @media (max-width: 48em) {
+            margin: 0 auto;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    &__content {
+        color: $color-white;
+        max-width: 32rem;
+
+        @media (max-width: 48em) {
+            margin: 0 auto;
+            max-width: 100%;
+
+        }
+
+        @media (max-width: 36em) {
+        }
+
+        & p {
+            font-size: 1.5rem;
+        }
+    }
+
+}

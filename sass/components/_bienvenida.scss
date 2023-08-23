@@ -1,0 +1,124 @@
+.bienvenida {
+    background: $color-secondary;
+    min-height: 100.47rem;
+    padding: 8rem 4rem;
+
+    @media (max-width: 36em) {
+        min-height: 0;
+    }
+
+    &__content {
+        color: $color-white;
+        max-width: 32rem;
+
+        @media (max-width: 36em) {
+            max-width: 100%;
+        }
+
+        & p {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__images {
+        position: relative;
+
+        &-1>img,
+        &-2>img,
+        &-3>img {
+            position: absolute;
+        }
+
+        &-1>img {
+            top: -1rem;
+            left: -12.5%;
+
+            @media (max-width: 47.5em) {
+                top: 10rem;
+                left: -1%;
+                height: 10rem;
+            }
+
+            @media (max-width: 36em) {
+                top: 3rem;
+                left: -2%;
+            }
+        }
+
+        &-2>img:nth-child(2n + 1) {
+            max-width: 39.8rem;
+            max-height: 66.4rem;
+            top: -5rem;
+
+            @media (max-width: 41.4375em) {
+                max-width: 35rem;
+            }
+
+            @media (max-width: 36.6875em) {
+                max-width: 32rem;
+            }
+
+            @media (max-width: 36em) {
+                top: 1.5rem;
+            }
+        }
+
+        &-2>img:nth-child(2n) {
+            max-height: 31.3rem;
+            max-width: 31.9rem;
+            top: 23rem;
+            right: 80%;
+
+            @media (max-width: 76.25em) {
+                top: 23rem;
+                right: 40%;
+            }
+
+            @media (max-width: 47.5em) {
+                max-height: 23rem;
+                max-width: 23rem;
+                top: 30rem;
+            }
+
+            @media (max-width: 41.875em) {
+                right: 25%;
+            }
+        }
+
+        &-2>img:last-child {
+            max-height: 27.3rem;
+            max-width: 40.9rem;
+            top: 45rem;
+            right: 45%;
+
+            @media (max-width: 76.25em) {
+                top: 45rem;
+                right: 25%;
+            }
+
+            @media (max-width: 47.5em) {
+                max-height: 20rem;
+                max-width: 28rem;
+            }
+
+            @media (max-width: 41.875em) {
+                right: 0;
+            }
+        }
+
+        &-3>img {
+            top: 66rem;
+            left: 36.5%;
+
+            @media (max-width: 47.5em) {
+                top: 62rem;
+                height: 4rem;
+            }
+
+            @media (max-width: 36em) {
+                top: 60.5rem;
+                left: -2%;
+            }
+        }
+    }
+}

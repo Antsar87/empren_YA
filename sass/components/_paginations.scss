@@ -1,0 +1,14 @@
+.paginations {
+    max-width: 100rem;
+    margin: 2rem auto 0 auto;
+
+    @media (max-width: 53.5em) {
+        padding: 1rem 2rem;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}

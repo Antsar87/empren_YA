@@ -1,0 +1,374 @@
+.servicios {
+
+    &-header {
+        background-image: url('../img/conocenos-header.png');
+        background-size: cover;
+        padding: 4rem 1.5rem;
+        text-align: center;
+    }
+
+    &__fisioterapia {
+        display: flex;
+        justify-content: center;
+
+        &-container {
+            max-width: 108rem;
+            padding: 1rem 3rem;
+            margin: 4rem auto 4rem auto;
+        }
+
+        &-flex {
+            align-items: flex-end;
+
+            @media (max-width: 48em) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+            }
+        }
+
+        // SECTION 1
+        &-history {
+            position: relative;
+
+            @media (max-width: 48em) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        &-titlebox {
+            text-transform: uppercase;
+            color: $color-white;
+            text-align: center;
+        }
+
+        &-title {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        &-background {
+            position: absolute;
+            background: $color-tertiary;
+            border-radius: 2.5rem;
+            top: -8%;
+            left: -2rem;
+            width: 40rem;
+            height: 35rem;
+            z-index: 10;
+
+            @media (max-width: 56.875em) {
+                left: -.5rem;
+            }
+
+            @media (max-width: 48em) {
+                transform: translate(-50%, -50%);
+                top: 55%;
+                left: 37%;
+                width: 20rem;
+                height: 30rem;
+            }
+
+            @media (max-width: 20.0625em) {
+                width: 20rem;
+                height: 25rem;
+            }
+
+            @media (max-width: 17.9375em) {
+                width: 12.5rem;
+                height: 20rem;
+                left: 30%;
+            }
+        }
+
+        &-image {
+            max-width: 40.6rem;
+            max-height: 43.0rem;
+            margin-right: -3rem;
+            position: relative;
+            z-index: 28;
+
+            @media (max-width: 48em) {
+                max-width: 30rem;
+            }
+
+            @media (max-width: 20.0625em) {
+                max-width: 25rem;
+            }
+
+            @media (max-width: 17.9375em) {
+                max-width: 22rem;
+            }
+        }
+
+        &-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-content {
+            padding: 3rem 4.5rem 4.5rem 5rem;
+            background: $color-white;
+            border-radius: 2.5rem;
+            box-shadow: -3px -4px 28px -7px rgba(0, 0, 0, 0.246);
+            color: $color-fourth;
+            max-width: 55rem;
+            font-size: 1.4rem;
+            position: relative;
+            z-index: 25;
+
+            @media (max-width: 48em) {
+                margin: 0 auto;
+                padding: 3rem;
+            }
+
+            @media (max-width: 20.0625em) {
+                padding: 1.5rem;
+            }
+
+            &>div>h2 {
+                @media (max-width: 20.0625em) {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        // SECTION 2
+        &-history2 {
+            position: relative;
+
+            @media (max-width: 48em) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        &-titlebox2 {
+            text-transform: uppercase;
+            color: $color-white;
+            text-align: center;
+        }
+
+        &-title2 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        &-background2 {
+            position: absolute;
+            background: $color-tertiary;
+            border-radius: 2.5rem;
+            top: -7%;
+            left: -7rem;
+            width: 40rem;
+            height: 30rem;
+            z-index: 10;
+
+            @media (max-width: 56.875em) {
+                left: -.5rem;
+            }
+
+            @media (max-width: 48em) {
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 35%;
+                width: 20rem;
+                height: 25rem;
+            }
+
+            @media (max-width: 25em) {
+                left: 32%;
+            }
+
+            @media (max-width: 20.0625em) {
+                width: 20rem;
+                height: 20rem;
+                top: 55%;
+            }
+
+            @media (max-width: 17.9375em) {
+                width: 12.5rem;
+                height: 20rem;
+                left: 25%;
+            }
+        }
+
+        &-image2 {
+            max-width: 40.6rem;
+            max-height: 43.0rem;
+            margin-left: -6rem;
+            position: relative;
+            z-index: 28;
+
+            @media (max-width: 48em) {
+                max-width: 30rem;
+                margin-left: 0;
+            }
+
+            @media (max-width: 20.0625em) {
+                max-width: 25rem;
+            }
+
+            @media (max-width: 17.9375em) {
+                max-width: 22rem;
+            }
+        }
+
+        &-img2 {
+            width: 100%;
+            height: 100%;
+        }
+
+        &-content2 {
+            padding: 3rem 4.5rem 4.5rem 5rem;
+            background: $color-white;
+            border-radius: 2.5rem;
+            box-shadow: -3px -4px 28px -7px rgba(0, 0, 0, 0.246);
+            color: $color-fourth;
+            max-width: 55rem;
+            font-size: 1.4rem;
+            position: relative;
+            z-index: 25;
+
+            @media (max-width: 48em) {
+                margin: 0 auto;
+                padding: 3rem;
+            }
+
+            @media (max-width: 20.0625em) {
+                padding: 1.5rem;
+            }
+
+            &>div>h2 {
+                @media (max-width: 20.0625em) {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+
+
+
+    &__diferencia {
+        max-width: 75rem;
+        padding: 1rem 3rem;
+        margin: 6rem auto;
+        text-align: center;
+
+        &-content {
+            & p {
+                font-size: 1.4rem;
+                margin: 1.5rem 0;
+            }
+        }
+    }
+
+    &__features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+
+        &-container {
+            max-width: 108rem;
+            padding: 1rem 3rem;
+
+            @media (max-width: 48em) {
+                margin: 0 auto;
+            }
+        }
+
+        &-flex {}
+
+        &-image {
+            max-width: 56.3rem;
+            max-height: 49.5rem;
+
+            @media (max-width: 48em) {
+                margin: 3rem auto;
+            }
+
+            @media (max-width: 36em) {
+                margin: 2rem auto 0 auto;
+            }
+        }
+
+        &-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 2rem;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            height: 100%;
+
+            @media (max-width: 48em) {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+            & p {
+                font-size: 1.5rem;
+                max-width: 40rem;
+
+                @media (max-width: 48em) {
+                    padding-top: 1.5rem;
+                }
+
+                @media (max-width: 43.75em) {
+                    font-size: 1.4rem;
+                }
+
+            }
+
+            & h2 {
+                @media (max-width: 43.75em) {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+
+    &-opciones {
+        padding-bottom: 5rem;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            &>div>a {
+                margin-right: .87rem;
+                transition: all .1s;
+                margin-bottom: .87rem;
+            }
+
+            &>div>a:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        &__buttons-hover:hover {
+            background: $color-tertiary;
+            color: $color-white;
+        }
+    }
+}

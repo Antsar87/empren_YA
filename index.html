@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | OlimpYA</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR/MENU SECTION -->
+    <nav class="menu">
+      <div class="features__container">
+        <!-- MENU GRANDE(768PX PARA ARRIBA) -->
+        <div class="d-none d-md-block">
+          <div class="menu__big">
+            <!-- LOGO MENU -->
+            <div class="menu__logo">
+              <a href="index.html">
+                <img src="img/olimpya-logo.png" class="menu__logo" alt="" />
+              </a>
+            </div>
+
+            <!-- LINKS AND BUTTON -->
+            <ul class="menu__list">
+              <li><a href="ventajas.html">Ventajas</a></li>
+              <li><a href="conocenos.html">Conócenos</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="localizacion.html">Localización</a></li>
+
+              <div>
+                <a href="cita.html" class="button button-outline-blue"
+                  >Pedir Cita</a
+                >
+              </div>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MENU PEQUEÑO(768PX PARA ABAJO) -->
+        <div class="menu__small p-md-0 p-2 d-md-none">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <!-- LOGO MENU -->
+              <div class="menu__logo">
+                <a href="index.html">
+                  <img src="img/olimpya-logo.png" class="menu__logo" alt="" />
+                </a>
+              </div>
+
+              <!-- HAMBURGUER MENU -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- CONTENT THAT'S INSIDE THE MENU -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <!-- LINKS AND BUTTON -->
+                <ul class="menu__list">
+                  <li><a href="ventajas.html">Ventajas</a></li>
+                  <li><a href="conocenos.html">Conócenos</a></li>
+                  <li><a href="servicios.html">Servicios</a></li>
+                  <li><a href="localizacion.html">Localización</a></li>
+
+                  <div class="py-4">
+                    <a href="cita.html" class="button button-outline-blue"
+                      >Pedir Cita</a
+                    >
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/header.jpeg" class="d-block header__carousel-img" />
+
+            <div class="header__carousel-content">
+              <h2 class="text-uppercase">
+                <span class="d-block color-secondary">Descubre la</span>
+                <span class="d-block color-tertiary">fisioterapia del</span>
+                <span class="color-tertiary">futuro</span> en
+              </h2>
+
+              <div class="my-4 mb-4">
+                <img
+                  src="img/header-logo.jpeg"
+                  class="header__carousel-logo"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <a href="cita.html" class="button button-blue">Pedir Cita</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/header.jpeg" class="d-block header__carousel-img" />
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/header.jpeg" class="d-block header__carousel-img" />
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/header.jpeg" class="d-block header__carousel-img" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- EXPERIENCIA/CALIDAD/ATENCIÓN PERSONALIZADA SECTION -->
+    <section class="features">
+      <div class="features__container">
+        <!-- FIRST SECTION FEATURES-->
+        <div class="row gx-0 px-3">
+          <div class="col-sm-6">
+            <div class="features__image">
+              <img
+                src="img/feature-1.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-6 ps-sm-5">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">Experiencia</h2>
+              <div class="border-bottom-title"></div>
+
+              <p class="my-5">
+                Profesionales altamente capacitados y especializados, que se
+                mantienen en constante formación y aprendizaje para ofrecerte un
+                tratamiento de calidad.
+              </p>
+
+              <div>
+                <a href="cita.html" class="button button-blue">Pedir Cita</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECOND SECTION FEATURES -->
+        <div class="row gx-0 px-3 py-5">
+          <div class="col-sm-6 order-sm-first order-last">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">Calidad</h2>
+              <div class="border-bottom-title"></div>
+
+              <p class="my-5">
+                Destacamos por el desarrolo de estrategias innovadoras de
+                abordaje, adaptadas específicamente a cada paciente,
+                garantizando así servicios de excelencia.
+              </p>
+
+              <div>
+                <a href="cita.html" class="button button-blue">Pedir Cita</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="features__image order-sm-last order-first">
+              <img
+                src="img/feature-2.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- THIRD SECTION FEATURES-->
+        <div class="row gx-0 px-3 pb-5">
+          <div class="col-sm-6">
+            <div class="features__image">
+              <img
+                src="img/feature-3.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">
+                Atención <span class="d-block">Personalizada</span>
+              </h2>
+              <div class="border-bottom-title"></div>
+
+              <p class="my-5">
+                La escucha activa de nuestras profesionales permite conocer
+                mejor a los pacientes, saber más acerca de su patología y
+                encontrar el mejor tratamiento para su problema.
+              </p>
+
+              <div>
+                <a href="cita.html" class="button button-blue">Pedir Cita</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIENVENIDA SECTION -->
+    <section class="bienvenida">
+      <div class="features__container">
+        <div class="row mx-5">
+          <div class="col-sm-6">
+            <div class="bienvenida__content">
+              <h2 class="border-title-white">
+                <span>Bienvenidos</span>
+                <span class="d-block">a olimpyafisio</span>
+                <div class="border-bottom-title-bienvenida"></div>
+              </h2>
+
+              <p class="mt-5">
+                Descubre una nueva experiencia en OlimpyaFisio, donde fusionamos
+                la calidez de un trato cercano con tratamientos personalizados
+                que se adaptan a tus necesidades individuales.
+                <span class="color-tertiary"
+                  >En nuestro centro, creemos en la poderosa combinación de la
+                  terapia manual, terapias invasivas y el ejercicio como pilares
+                  fundamentales para abordar tus desafíos fisioterapéuticos.
+                </span>
+              </p>
+
+              <p class="mb-5">
+                Nuestro equipo está conformado por apasionados profesionales con
+                una amplia formación en áreas como
+                <span class="color-tertiary">
+                  traumatología deportiva, terapias invasivas, neurología,
+                  oncología, respiratoria, pediatría, geriatría, ejercicio
+                  terapéutico y readaptación deportiva.
+                </span>
+                En OlimpyaFisio te ayudaremos a superarte y mejorar tu salud
+                para que puedas disfrutar de una vida plena y activa.
+              </p>
+
+              <div>
+                <a href="eleccion.html" class="button button-blue"
+                  >¿Por qué elegirnos?</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 d-sm-block d-none">
+            <div class="bienvenida__images">
+              <div class="bienvenida__images-1">
+                <img src="img/bienvenida-blue-dots1.png" alt="" />
+              </div>
+
+              <div class="bienvenida__images-2">
+                <img src="img/bienvenida-3.png" alt="" />
+                <img src="img/bienvenida-2.png" alt="" />
+                <img src="img/bienvenida-1.png" alt="" />
+              </div>
+
+              <div class="bienvenida__images-3">
+                <img src="img/bienvenida-blue-dots2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASISTENCIA SECTION -->
+    <section class="help">
+      <div class="features__container">
+        <div class="row help__flex gx-0">
+          <div class="col-md-5">
+            <div class="help__image">
+              <img src="img/help-overlay.png" class="help__img" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="help__content text-md-end text-start">
+              <h2 class="border-title-white">
+                <span>¿Qué es lo que</span>
+                <span>podemos hacer</span>
+                <span class="d-md-block d-inline">por ti?</span>
+                <div class="border-bottom-title-bienvenida"></div>
+              </h2>
+
+              <p class="mt-5">
+                Nuestra prioridad, eres tú. Por eso, desde OlimpyaFisio te
+                ofrecemos una amplia gama de servicios que incluyen:
+                <span class="color-secondary"
+                  >fisioterapia, rehabilitación, readaptación deportiva,
+                  ejercicio terapéutico, osteopatía y pilates.
+                </span>
+              </p>
+
+              <p class="mb-5">
+                Contamos con un equipo de fisioterapeutas colegiadas que te
+                acompañarán en todo momento,
+                <span class="color-secondary">
+                  brindándote orientación y ayuda personalizada.
+                </span>
+                ¿Quieres saber más sobre nuestros servicios?
+              </p>
+
+              <div>
+                <a href="eleccion.html" class="button button-dark-blue"
+                  >Ver Servicios</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONÓCENOS SECTION -->
+    <section class="meet">
+      <div class="features__container">
+        <div class="meet__content">
+          <h2 class="border-title-tertiary">
+            <div class="d-block">
+              CONÓCENOS
+              <div class="border-bottom-title-meet"></div>
+            </div>
+          </h2>
+
+          <p>
+            En Olimpya Fisio, la importancia de tu bienestar y recuperación nos
+            motiva a contar
+            <span class="color-secondary"
+              >con un equipo experimentado. Nuestros profesionales altamente
+              capacitados y especializados</span
+            >
+            se asegurarán de brindarte un tratamiento efectivo y personalizado
+            que
+            <span class="color-tertiary"
+              >te permita alcanzar tus objetivos de salud y vivir
+              plenamente.</span
+            >
+          </p>
+
+          <div class="meet__image">
+            <img src="img/meet.png" class="meet__img" alt="" />
+          </div>
+
+          <div>
+            <a href="nosotros.html" class="button button-blue fw-bold"
+              >Sobre Nosotros</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DUDAS SECTION -->
+    <section class="doubts">
+      <div class="row doubts__flex gx-0">
+        <div class="col-md-2">
+          <div class="doubts__dots">
+            <img src="img/horizontals-white-dots.png" class="doubts__img alt="">
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <h2 class="border-title-tertiary">
+            <span>¿Te has quedado</span>
+            <span class="d-md-block d-inline">con dudas?</span>
+            <div class="border-bottom-title-doubts"></div>
+          </h2>
+        </div>
+
+        <div class="col-md-4">
+          <div class="doubts__content text-center text-md-end">
+            <p>
+              Nuestro equipo estará encantado de atenderte y guiarte para
+              encontrar la mejor terapia para tu situación y necesidades
+              específicas.
+            </p>
+
+            <div>
+              <a class="button button-dark-blue" href="contacto.html"
+                >Contáctanos</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="doubts__marks">
+            <img
+              src="img/questions-marks.png"
+              class="doubts__marks-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="features__container">
+        <div class="row gx-0 footer__flex">
+          <article class="col-sm-3">
+            <div class="footer__content">
+              <div>
+                <h4 class="color-secondary">Donde nos puedes encontrar</h4>
+              </div>
+
+              <div class="footer__info mb-4">
+                <div>
+                  <img src="img/footer-icon1.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="d-block">Av Sucre 124 Frontera Sur.</span>
+                    Malaga - España
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer__info">
+                <div>
+                  <img src="img/footer-icon2.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="d-block">Lunes a Viernes</span> 8:00 am. - 6:00
+                    pm.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-4">
+            <div class="footer__content text-center">
+              <div class="footer__image">
+                <img src="img/header-logo.jpeg" class="footer__img" alt="" />
+              </div>
+
+              <div class="footer__medias">
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-1.png"
+                    class="footer__img"
+                    alt=""
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-2.png"
+                    class="footer__img"
+                    alt=""
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-3.png"
+                    class="footer__img"
+                    alt=""
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-4.png"
+                    class="footer__img"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-sm-3">
+            <div class="footer__content">
+              <div>
+                <h4 class="color-secondary mt-sm-0 mt-5">
+                  Información de contacto:
+                </h4>
+              </div>
+
+              <div class="footer__info mb-5">
+                <div>
+                  <img src="img/footer-icon3.png" alt="" />
+                </div>
+
+                <div>
+                  <p>Teléfono: (+45) 152 9683</p>
+                </div>
+              </div>
+
+              <div class="footer__info">
+                <div>
+                  <img src="img/footer-icon4.png" alt="" />
+                </div>
+
+                <div>
+                  <p>Email: info@olimpya.com.es</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="footer__links-copy">
+          <a href="#">Políticas de privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="footer__text-copy">
+          <p>Copyright &copy; 2023 Olimpyafisio</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOTSTRAP JAVASCRIPT LINK/SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

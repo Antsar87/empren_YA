@@ -1,0 +1,42 @@
+.meet {
+    padding: 4rem 2rem;
+
+    &__content {
+        text-align: center;
+
+        & p {
+            margin: 3rem auto 0 auto;
+            color: $color-grey;
+            font-size: 1.7rem;
+            max-width: 90rem;
+        }
+
+        & > :last-child {
+            margin-top: 0;
+
+            @media (max-width: 63.5em) {
+                margin-top: -2.4rem;
+            }
+
+            @media (max-width: 62.4375em) {
+                margin-top: 0;
+            }
+            
+            @media (max-width: 51em) {
+                margin-top: -2.4rem;
+
+            }
+         }
+    }
+
+    &__image {
+        max-width: 100.39rem;
+        max-height: 54.9rem;
+        margin: 3rem auto 0 auto;
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+}

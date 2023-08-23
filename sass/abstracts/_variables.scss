@@ -1,0 +1,158 @@
+// VARIABLES COLOURS
+$color-primary: #BAE8EE;
+$color-secondary: #223163;
+$color-tertiary: #62C7E4;
+$color-fourth: #7C7C7C;
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-grey: #CCCCCC;
+$color-transparent-white: rgba(255, 255, 255, 0.897);
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-secondary {
+    color: $color-secondary;
+}
+
+.color-tertiary {
+    color: $color-tertiary;
+}
+
+.color-fourth {
+    color: $color-fourth;
+}
+
+// BUTTONS
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.button-blue {
+    background: $color-tertiary;
+    border-radius: .5rem;
+    color: $color-white;
+    padding: .8rem 2.5rem;
+}
+
+.button-dark-blue {
+    background: $color-secondary;
+    border-radius: .5rem;
+    color: $color-white;
+    padding: .8rem 2.5rem;
+    font-weight: bold;
+}
+
+.button-outline-blue {
+    border: .2rem solid $color-primary;
+    color: $color-secondary;
+    border-radius: 2rem;
+}
+
+.link-active {
+    border-top: 7px solid $color-primary!important;
+    background: $color-secondary;
+    color: $color-white!important;
+}
+
+// TITLES BORDERS BOTTOMS
+.border-bottom-title {
+    background: $color-tertiary;
+    border-radius: 1rem;
+    height: .3rem;
+    width: 8rem;
+}
+
+.border-title-tertiary {
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: 3.2rem;
+}
+
+.border-bottom-title-bienvenida {
+    background: $color-tertiary;
+    border-radius: 1rem;
+    margin-left: 3.2rem;
+    height: .3rem;
+    width: 21rem;
+}
+
+.border-bottom-title-meet {
+    background: $color-tertiary;
+    border-radius: 1rem;
+    margin: 0 auto;
+    height: .3rem;
+    width: 10rem;
+}
+
+.border-bottom-title-bienvenida {
+    background: $color-secondary;
+    border-radius: 1rem;
+    margin-left: auto;
+    height: .3rem;
+    width: 12rem;
+
+    @media (max-width: 48em) {
+        margin-left: 0;
+    }
+}
+
+.border-bottom-title-doubts {
+    background: $color-transparent-white;
+    margin-left: 7.5rem;
+    border-radius: 1rem;
+    height: .3rem;
+    width: 12rem;
+
+    @media (max-width: 48em) {
+        margin: 1rem auto;
+    }
+}
+
+.border-title-white {
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 3.2rem;
+}
+
+.border-bottom-ventajas-title {
+    background: $color-tertiary;
+    border-radius: 1rem;
+    height: .3rem;
+    width: 37%;
+    margin-left: 4.3rem;
+}
+
+.border-title-ventajas {
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: 2.6rem;
+}
+
+.border-bottom-servicios-title {
+    background: $color-tertiary;
+    border-radius: 1rem;
+    height: .3rem;
+    width: 17%;
+}
+
+.border-title-servicios {
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: 2.9rem;
+}
+
+.text-justify {
+    text-align: justify!important;
+}
+
+.pt-7 {
+    padding-top: 7rem;
+}

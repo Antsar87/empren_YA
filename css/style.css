@@ -1,0 +1,1356 @@
+.color-primary {
+  color: #BAE8EE; }
+
+.color-secondary {
+  color: #223163; }
+
+.color-tertiary {
+  color: #62C7E4; }
+
+.color-fourth {
+  color: #7C7C7C; }
+
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: .5rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: none; }
+
+.button-blue {
+  background: #62C7E4;
+  border-radius: .5rem;
+  color: #FFFFFF;
+  padding: .8rem 2.5rem; }
+
+.button-dark-blue {
+  background: #223163;
+  border-radius: .5rem;
+  color: #FFFFFF;
+  padding: .8rem 2.5rem;
+  font-weight: bold; }
+
+.button-outline-blue {
+  border: 0.2rem solid #BAE8EE;
+  color: #223163;
+  border-radius: 2rem; }
+
+.link-active {
+  border-top: 7px solid #BAE8EE !important;
+  background: #223163;
+  color: #FFFFFF !important; }
+
+.border-bottom-title {
+  background: #62C7E4;
+  border-radius: 1rem;
+  height: .3rem;
+  width: 8rem; }
+
+.border-title-tertiary {
+  text-transform: uppercase;
+  color: #223163;
+  font-size: 3.2rem; }
+
+.border-bottom-title-bienvenida {
+  background: #62C7E4;
+  border-radius: 1rem;
+  margin-left: 3.2rem;
+  height: .3rem;
+  width: 21rem; }
+
+.border-bottom-title-meet {
+  background: #62C7E4;
+  border-radius: 1rem;
+  margin: 0 auto;
+  height: .3rem;
+  width: 10rem; }
+
+.border-bottom-title-bienvenida {
+  background: #223163;
+  border-radius: 1rem;
+  margin-left: auto;
+  height: .3rem;
+  width: 12rem; }
+  @media (max-width: 48em) {
+    .border-bottom-title-bienvenida {
+      margin-left: 0; } }
+
+.border-bottom-title-doubts {
+  background: rgba(255, 255, 255, 0.897);
+  margin-left: 7.5rem;
+  border-radius: 1rem;
+  height: .3rem;
+  width: 12rem; }
+  @media (max-width: 48em) {
+    .border-bottom-title-doubts {
+      margin: 1rem auto; } }
+
+.border-title-white {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 3.2rem; }
+
+.border-bottom-ventajas-title {
+  background: #62C7E4;
+  border-radius: 1rem;
+  height: .3rem;
+  width: 37%;
+  margin-left: 4.3rem; }
+
+.border-title-ventajas {
+  text-transform: uppercase;
+  color: #223163;
+  font-size: 2.6rem; }
+
+.border-bottom-servicios-title {
+  background: #62C7E4;
+  border-radius: 1rem;
+  height: .3rem;
+  width: 17%; }
+
+.border-title-servicios {
+  text-transform: uppercase;
+  color: #223163;
+  font-size: 2.9rem; }
+
+.text-justify {
+  text-align: justify !important; }
+
+.pt-7 {
+  padding-top: 7rem; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 50%; }
+
+@media (min-width: 62.5em) {
+  html {
+    font-size: 62.5%; } }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5; }
+
+.container-large {
+  max-width: 120rem;
+  margin: 0 auto; }
+
+.text-default {
+  text-transform: none; }
+
+.px-7 {
+  padding: 0 7rem !important; }
+  @media (max-width: 48em) {
+    .px-7 {
+      padding: 0 !important; } }
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+
+.bienvenida {
+  background: #223163;
+  min-height: 100.47rem;
+  padding: 8rem 4rem; }
+  @media (max-width: 36em) {
+    .bienvenida {
+      min-height: 0; } }
+  .bienvenida__content {
+    color: #FFFFFF;
+    max-width: 32rem; }
+    @media (max-width: 36em) {
+      .bienvenida__content {
+        max-width: 100%; } }
+    .bienvenida__content p {
+      font-size: 1.5rem; }
+  .bienvenida__images {
+    position: relative; }
+    .bienvenida__images-1 > img,
+    .bienvenida__images-2 > img,
+    .bienvenida__images-3 > img {
+      position: absolute; }
+    .bienvenida__images-1 > img {
+      top: -1rem;
+      left: -12.5%; }
+      @media (max-width: 47.5em) {
+        .bienvenida__images-1 > img {
+          top: 10rem;
+          left: -1%;
+          height: 10rem; } }
+      @media (max-width: 36em) {
+        .bienvenida__images-1 > img {
+          top: 3rem;
+          left: -2%; } }
+    .bienvenida__images-2 > img:nth-child(2n + 1) {
+      max-width: 39.8rem;
+      max-height: 66.4rem;
+      top: -5rem; }
+      @media (max-width: 41.4375em) {
+        .bienvenida__images-2 > img:nth-child(2n + 1) {
+          max-width: 35rem; } }
+      @media (max-width: 36.6875em) {
+        .bienvenida__images-2 > img:nth-child(2n + 1) {
+          max-width: 32rem; } }
+      @media (max-width: 36em) {
+        .bienvenida__images-2 > img:nth-child(2n + 1) {
+          top: 1.5rem; } }
+    .bienvenida__images-2 > img:nth-child(2n) {
+      max-height: 31.3rem;
+      max-width: 31.9rem;
+      top: 23rem;
+      right: 80%; }
+      @media (max-width: 76.25em) {
+        .bienvenida__images-2 > img:nth-child(2n) {
+          top: 23rem;
+          right: 40%; } }
+      @media (max-width: 47.5em) {
+        .bienvenida__images-2 > img:nth-child(2n) {
+          max-height: 23rem;
+          max-width: 23rem;
+          top: 30rem; } }
+      @media (max-width: 41.875em) {
+        .bienvenida__images-2 > img:nth-child(2n) {
+          right: 25%; } }
+    .bienvenida__images-2 > img:last-child {
+      max-height: 27.3rem;
+      max-width: 40.9rem;
+      top: 45rem;
+      right: 45%; }
+      @media (max-width: 76.25em) {
+        .bienvenida__images-2 > img:last-child {
+          top: 45rem;
+          right: 25%; } }
+      @media (max-width: 47.5em) {
+        .bienvenida__images-2 > img:last-child {
+          max-height: 20rem;
+          max-width: 28rem; } }
+      @media (max-width: 41.875em) {
+        .bienvenida__images-2 > img:last-child {
+          right: 0; } }
+    .bienvenida__images-3 > img {
+      top: 66rem;
+      left: 36.5%; }
+      @media (max-width: 47.5em) {
+        .bienvenida__images-3 > img {
+          top: 62rem;
+          height: 4rem; } }
+      @media (max-width: 36em) {
+        .bienvenida__images-3 > img {
+          top: 60.5rem;
+          left: -2%; } }
+
+.cita-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem; }
+  .cita-contacto__flex {
+    display: flex;
+    justify-content: center;
+    align-items: start; }
+    @media (max-width: 48em) {
+      .cita-contacto__flex > div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; } }
+  .cita-contacto__image {
+    max-width: 56.3rem;
+    max-height: 49.4rem; }
+    @media (max-width: 48em) {
+      .cita-contacto__image {
+        margin: 0 auto; } }
+  .cita-contacto__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem; }
+  .cita-contacto__info {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    gap: 1.5rem; }
+    .cita-contacto__info p {
+      font-size: 1.55rem;
+      color: #CCCCCC;
+      max-width: 40rem; }
+    .cita-contacto__info:last-child {
+      margin-left: 3.5rem; }
+
+.cita-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100rem;
+  margin: 3.5rem auto 10rem auto; }
+  .cita-form__background {
+    box-shadow: 0px 6px 28px 6px rgba(0, 0, 0, 0.16);
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    border-radius: 2.2rem;
+    padding: 4rem; }
+  .cita-form__content p {
+    font-size: 1.59rem;
+    padding: 1.8rem 0 1.9rem; }
+  .cita-form__image {
+    max-width: 43.3rem;
+    max-height: 60.9rem; }
+    @media (max-width: 48em) {
+      .cita-form__image {
+        margin: 3.5rem auto 0 auto; } }
+  .cita-form__img {
+    width: 100%;
+    height: 100%; }
+  .cita-form__box {
+    margin-bottom: 2.5rem; }
+    .cita-form__box > input {
+      border: none;
+      border-bottom: 1px solid #62C7E4;
+      padding: 0 0 .5rem 1rem;
+      width: 100%;
+      font-size: 1.4rem;
+      color: #7C7C7C; }
+    .cita-form__box > input:focus {
+      outline: none; }
+  .cita-form__box-select {
+    width: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #62C7E4;
+    padding: 0 0 .5rem .5rem;
+    font-size: 1.4rem;
+    color: #7C7C7C; }
+  .cita-form__box-timing {
+    display: flex;
+    margin: 2.5rem 0 1.8rem 0; }
+    .cita-form__box-timing > :first-child,
+    .cita-form__box-timing > :last-child {
+      flex-basis: 50%;
+      padding-right: 4rem; }
+    .cita-form__box-timing > div > input {
+      width: 100%;
+      outline: none;
+      background: none;
+      border: none;
+      border-bottom: 1px solid #62C7E4;
+      padding: 0 0 .5rem .5rem;
+      font-size: 1.4rem;
+      color: #7C7C7C; }
+
+.cita-header {
+  background-image: url("../img/cita-header.png");
+  background-size: cover;
+  padding: 4rem 1.5rem;
+  text-align: center; }
+
+.cita-opciones {
+  padding-bottom: 5rem; }
+  .cita-opciones__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .cita-opciones__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .cita-opciones__buttons > div > a {
+      margin-right: .87rem;
+      transition: all .1s;
+      margin-bottom: .87rem; }
+    .cita-opciones__buttons > div > a:last-of-type {
+      margin-right: 0; }
+  .cita-opciones__buttons-hover:hover {
+    background: #62C7E4;
+    color: #FFFFFF; }
+
+.conocenos-equipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem; }
+  .conocenos-equipo__flex {
+    display: flex;
+    justify-content: center;
+    align-items: start; }
+    @media (max-width: 48em) {
+      .conocenos-equipo__flex > div:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; } }
+  .conocenos-equipo__image {
+    max-width: 56.3rem;
+    max-height: 36.5rem; }
+    @media (max-width: 48em) {
+      .conocenos-equipo__image {
+        margin: 0 auto; } }
+  .conocenos-equipo__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem; }
+  .conocenos-equipo__info-text p {
+    max-width: 45rem;
+    font-size: 1.5rem; }
+
+.conocenos-header {
+  background-image: url("../img/conocenos-header.png");
+  background-size: cover;
+  padding: 4rem 1.5rem;
+  text-align: center; }
+
+.doubts {
+  background: #62C7E4;
+  margin: 3rem 0;
+  padding: 1rem 0 1.5rem 1.5rem; }
+  .doubts__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 48em) {
+      .doubts__flex {
+        text-align: center;
+        align-items: center; } }
+  .doubts__dots {
+    max-width: 7rem;
+    max-height: 17.5rem; }
+    @media (max-width: 48em) {
+      .doubts__dots {
+        margin: 2rem auto; } }
+  .doubts__img {
+    width: 100%;
+    height: 100%; }
+  .doubts__content {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    text-align: end; }
+    @media (max-width: 48em) {
+      .doubts__content p {
+        margin: 1.5rem auto;
+        max-width: 70rem; } }
+  .doubts__marks {
+    max-width: 100%; }
+    .doubts__marks-img {
+      width: 100%;
+      height: 100%; }
+      @media (max-width: 48em) {
+        .doubts__marks-img {
+          display: none; } }
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem; }
+  .features__container {
+    max-width: 108rem;
+    padding: 1rem 3rem; }
+  .features__image {
+    max-width: 56.3rem;
+    max-height: 49.5rem; }
+    @media (max-width: 36em) {
+      .features__image {
+        margin: 2rem auto 0 auto; } }
+  .features__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem; }
+  .features__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 100%; }
+    .features__content p {
+      font-size: 1.55rem;
+      color: #CCCCCC;
+      max-width: 40rem; }
+      @media (max-width: 48em) {
+        .features__content p {
+          padding-top: 1.5rem; } }
+      @media (max-width: 43.75em) {
+        .features__content p {
+          font-size: 1.4rem; } }
+    @media (max-width: 43.75em) {
+      .features__content h2 {
+        font-size: 2.5rem; } }
+
+.footer__flex {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem; }
+  .footer__flex > :last-child {
+    margin-left: 5rem; }
+    @media (max-width: 36em) {
+      .footer__flex > :last-child {
+        margin-left: 0; } }
+
+@media (max-width: 36em) {
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; } }
+
+.footer__content h4 {
+  margin-bottom: 4rem; }
+
+.footer__info {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  -webkit-column-gap: 1.5rem;
+  -moz-column-gap: 1.5rem; }
+  .footer__info > div > img {
+    width: 2rem; }
+  .footer__info > div > p {
+    display: inline;
+    font-size: 1.5rem;
+    line-height: 1.4; }
+
+.footer__image {
+  max-width: 26rem;
+  margin: 4.5rem auto; }
+
+.footer__medias {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 1rem; }
+  .footer__medias img {
+    width: 3rem;
+    height: 3rem; }
+
+.footer__img {
+  width: 100%;
+  height: 100%; }
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  padding: 5rem 1.5rem;
+  border-top: 1px solid #CCCCCC; }
+  @media (max-width: 29.75em) {
+    .footer__copyright {
+      flex-direction: column;
+      align-items: center;
+      column-gap: 1rem;
+      -webkit-column-gap: 1rem;
+      -moz-column-gap: 1rem; } }
+
+.footer__links-copy a {
+  color: #223163;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin-right: 3rem; }
+  @media (max-width: 20em) {
+    .footer__links-copy a {
+      display: block;
+      text-align: center;
+      margin-right: 0; } }
+
+.footer__text-copy {
+  font-size: 1.4rem;
+  color: #CCCCCC; }
+
+.header {
+  margin-bottom: 5rem; }
+  .header__carousel-img {
+    position: relative;
+    object-fit: cover;
+    height: 91.2vh;
+    width: 100%; }
+  .header__carousel-content {
+    background: rgba(255, 255, 255, 0.897);
+    border-bottom-left-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+    padding: 4rem 5.5rem;
+    position: absolute;
+    width: 35rem;
+    z-index: 100;
+    top: 0;
+    left: 16.5%; }
+    @media (max-width: 31.25em) {
+      .header__carousel-content {
+        padding: 3rem;
+        width: 20rem;
+        left: 7%; } }
+    .header__carousel-content h2 {
+      line-height: 1.4;
+      font-size: 2.3rem; }
+      @media (max-width: 31.25em) {
+        .header__carousel-content h2 {
+          font-size: 1.6rem; } }
+  .header__carousel-logo {
+    max-width: 15rem; }
+
+.carousel-indicators button {
+  border: 1px solid transparent !important;
+  border-radius: 5rem !important;
+  width: 2.8rem !important; }
+
+.carousel-indicators .active {
+  background: #62C7E4 !important;
+  border-radius: 5rem !important;
+  width: 2.8rem !important; }
+
+.help {
+  background: #62C7E4;
+  padding: 8rem 4rem; }
+  .help__flex {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; }
+  .help__image {
+    max-width: 46rem;
+    max-height: 51.1rem; }
+    @media (max-width: 48em) {
+      .help__image {
+        margin: 0 auto; } }
+  .help__img {
+    width: 100%;
+    height: 100%; }
+  .help__content {
+    color: #FFFFFF;
+    max-width: 32rem; }
+    @media (max-width: 48em) {
+      .help__content {
+        margin: 0 auto;
+        max-width: 100%; } }
+    .help__content p {
+      font-size: 1.5rem; }
+
+.meet {
+  padding: 4rem 2rem; }
+  .meet__content {
+    text-align: center; }
+    .meet__content p {
+      margin: 3rem auto 0 auto;
+      color: #CCCCCC;
+      font-size: 1.7rem;
+      max-width: 90rem; }
+    .meet__content > :last-child {
+      margin-top: 0; }
+      @media (max-width: 63.5em) {
+        .meet__content > :last-child {
+          margin-top: -2.4rem; } }
+      @media (max-width: 62.4375em) {
+        .meet__content > :last-child {
+          margin-top: 0; } }
+      @media (max-width: 51em) {
+        .meet__content > :last-child {
+          margin-top: -2.4rem; } }
+  .meet__image {
+    max-width: 100.39rem;
+    max-height: 54.9rem;
+    margin: 3rem auto 0 auto; }
+  .meet__img {
+    width: 100%;
+    height: 100%; }
+
+.menu__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.menu__big {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  @media (max-width: 48em) {
+    .menu__list {
+      flex-direction: column;
+      justify-content: center; } }
+  .menu__list li:last-of-type {
+    margin-right: 4rem; }
+    @media (max-width: 48em) {
+      .menu__list li:last-of-type {
+        margin-right: 0; } }
+  .menu__list li a {
+    border-top: 7px solid transparent;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #223163;
+    font-size: 1.3rem;
+    transition: all .4s;
+    padding: 2rem; }
+  .menu__list li a:hover {
+    border-top: 7px solid #BAE8EE;
+    background: #223163;
+    color: #FFFFFF; }
+
+.menu__logo {
+  max-width: 20rem; }
+
+.paginations {
+  max-width: 100rem;
+  margin: 2rem auto 0 auto; }
+  @media (max-width: 53.5em) {
+    .paginations {
+      padding: 1rem 2rem; } }
+  .paginations__flex {
+    display: flex;
+    align-items: center;
+    gap: 1rem; }
+
+.conocenos-army {
+  margin: 5rem 0; }
+  .conocenos-army-icon {
+    max-width: 2.6rem;
+    max-height: 2.6rem; }
+    .conocenos-army-icon img {
+      width: 100%;
+      height: 100%; }
+
+.conocenos-army__flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 5rem;
+  margin-bottom: 6rem; }
+
+@media (max-width: 48rem) {
+  .conocenos-army__content-worker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; } }
+
+.conocenos-army__content-worker p {
+  color: #7C7C7C;
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem 0; }
+  @media (max-width: 48rem) {
+    .conocenos-army__content-worker p {
+      max-width: 50rem; } }
+
+@media (max-width: 48rem) {
+  .conocenos-army__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    line-height: 1.6; } }
+
+.conocenos-army__content h3 {
+  font-size: 1.7rem; }
+
+.conocenos-army__content h4 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0; }
+
+.conocenos-army__content p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: #7C7C7C; }
+
+.conocenos-army__content ul {
+  list-style: none;
+  max-width: 45rem;
+  padding: 0; }
+
+.conocenos-army__content ul li {
+  color: #7C7C7C;
+  font-size: 1.2rem;
+  margin-bottom: 1rem; }
+
+.conocenos-army__image {
+  max-width: 40.3rem;
+  max-height: 41.0rem; }
+
+.conocenos-army__img {
+  width: 100%;
+  height: 100%; }
+
+.conocenos-atencion {
+  text-align: center;
+  max-width: 90rem;
+  margin: 3rem auto 4.5rem auto; }
+  .conocenos-atencion p {
+    color: #7C7C7C;
+    font-size: 1.5rem; }
+
+.servicios-header {
+  background-image: url("../img/conocenos-header.png");
+  background-size: cover;
+  padding: 4rem 1.5rem;
+  text-align: center; }
+
+.servicios__fisioterapia {
+  display: flex;
+  justify-content: center; }
+  .servicios__fisioterapia-container {
+    max-width: 108rem;
+    padding: 1rem 3rem;
+    margin: 4rem auto 4rem auto; }
+  .servicios__fisioterapia-flex {
+    align-items: flex-end; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto; } }
+  .servicios__fisioterapia-history {
+    position: relative; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-history {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+  .servicios__fisioterapia-titlebox {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center; }
+  .servicios__fisioterapia-title {
+    font-size: 3rem;
+    font-weight: 600; }
+  .servicios__fisioterapia-background {
+    position: absolute;
+    background: #62C7E4;
+    border-radius: 2.5rem;
+    top: -8%;
+    left: -2rem;
+    width: 40rem;
+    height: 35rem;
+    z-index: 10; }
+    @media (max-width: 56.875em) {
+      .servicios__fisioterapia-background {
+        left: -.5rem; } }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-background {
+        transform: translate(-50%, -50%);
+        top: 55%;
+        left: 37%;
+        width: 20rem;
+        height: 30rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-background {
+        width: 20rem;
+        height: 25rem; } }
+    @media (max-width: 17.9375em) {
+      .servicios__fisioterapia-background {
+        width: 12.5rem;
+        height: 20rem;
+        left: 30%; } }
+  .servicios__fisioterapia-image {
+    max-width: 40.6rem;
+    max-height: 43.0rem;
+    margin-right: -3rem;
+    position: relative;
+    z-index: 28; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-image {
+        max-width: 30rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-image {
+        max-width: 25rem; } }
+    @media (max-width: 17.9375em) {
+      .servicios__fisioterapia-image {
+        max-width: 22rem; } }
+  .servicios__fisioterapia-img {
+    width: 100%;
+    height: 100%; }
+  .servicios__fisioterapia-content {
+    padding: 3rem 4.5rem 4.5rem 5rem;
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: -3px -4px 28px -7px rgba(0, 0, 0, 0.246);
+    color: #7C7C7C;
+    max-width: 55rem;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 25; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-content {
+        margin: 0 auto;
+        padding: 3rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-content {
+        padding: 1.5rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-content > div > h2 {
+        font-size: 2rem; } }
+  .servicios__fisioterapia-history2 {
+    position: relative; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-history2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+  .servicios__fisioterapia-titlebox2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center; }
+  .servicios__fisioterapia-title2 {
+    font-size: 3rem;
+    font-weight: 600; }
+  .servicios__fisioterapia-background2 {
+    position: absolute;
+    background: #62C7E4;
+    border-radius: 2.5rem;
+    top: -7%;
+    left: -7rem;
+    width: 40rem;
+    height: 30rem;
+    z-index: 10; }
+    @media (max-width: 56.875em) {
+      .servicios__fisioterapia-background2 {
+        left: -.5rem; } }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-background2 {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 35%;
+        width: 20rem;
+        height: 25rem; } }
+    @media (max-width: 25em) {
+      .servicios__fisioterapia-background2 {
+        left: 32%; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-background2 {
+        width: 20rem;
+        height: 20rem;
+        top: 55%; } }
+    @media (max-width: 17.9375em) {
+      .servicios__fisioterapia-background2 {
+        width: 12.5rem;
+        height: 20rem;
+        left: 25%; } }
+  .servicios__fisioterapia-image2 {
+    max-width: 40.6rem;
+    max-height: 43.0rem;
+    margin-left: -6rem;
+    position: relative;
+    z-index: 28; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-image2 {
+        max-width: 30rem;
+        margin-left: 0; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-image2 {
+        max-width: 25rem; } }
+    @media (max-width: 17.9375em) {
+      .servicios__fisioterapia-image2 {
+        max-width: 22rem; } }
+  .servicios__fisioterapia-img2 {
+    width: 100%;
+    height: 100%; }
+  .servicios__fisioterapia-content2 {
+    padding: 3rem 4.5rem 4.5rem 5rem;
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    box-shadow: -3px -4px 28px -7px rgba(0, 0, 0, 0.246);
+    color: #7C7C7C;
+    max-width: 55rem;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 25; }
+    @media (max-width: 48em) {
+      .servicios__fisioterapia-content2 {
+        margin: 0 auto;
+        padding: 3rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-content2 {
+        padding: 1.5rem; } }
+    @media (max-width: 20.0625em) {
+      .servicios__fisioterapia-content2 > div > h2 {
+        font-size: 2rem; } }
+
+.servicios__diferencia {
+  max-width: 75rem;
+  padding: 1rem 3rem;
+  margin: 6rem auto;
+  text-align: center; }
+  .servicios__diferencia-content p {
+    font-size: 1.4rem;
+    margin: 1.5rem 0; }
+
+.servicios__features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem; }
+  .servicios__features-container {
+    max-width: 108rem;
+    padding: 1rem 3rem; }
+    @media (max-width: 48em) {
+      .servicios__features-container {
+        margin: 0 auto; } }
+  .servicios__features-image {
+    max-width: 56.3rem;
+    max-height: 49.5rem; }
+    @media (max-width: 48em) {
+      .servicios__features-image {
+        margin: 3rem auto; } }
+    @media (max-width: 36em) {
+      .servicios__features-image {
+        margin: 2rem auto 0 auto; } }
+  .servicios__features-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem; }
+  .servicios__features-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    height: 100%; }
+    @media (max-width: 48em) {
+      .servicios__features-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto; } }
+    .servicios__features-content p {
+      font-size: 1.5rem;
+      max-width: 40rem; }
+      @media (max-width: 48em) {
+        .servicios__features-content p {
+          padding-top: 1.5rem; } }
+      @media (max-width: 43.75em) {
+        .servicios__features-content p {
+          font-size: 1.4rem; } }
+    @media (max-width: 43.75em) {
+      .servicios__features-content h2 {
+        font-size: 2.5rem; } }
+
+.servicios-opciones {
+  padding-bottom: 5rem; }
+  .servicios-opciones__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .servicios-opciones__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .servicios-opciones__buttons > div > a {
+      margin-right: .87rem;
+      transition: all .1s;
+      margin-bottom: .87rem; }
+    .servicios-opciones__buttons > div > a:last-of-type {
+      margin-right: 0; }
+  .servicios-opciones__buttons-hover:hover {
+    background: #62C7E4;
+    color: #FFFFFF; }
+
+.ventajas-header {
+  background-image: url("../img/ventajas-header.png");
+  background-size: cover;
+  padding: 4rem 1.5rem;
+  text-align: center; }
+
+.ventajas__mission {
+  background: #223163;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ventajas__mission-container {
+    max-width: 108rem;
+    padding: 1rem 3rem; }
+  @media (max-width: 48em) {
+    .ventajas__mission-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto; } }
+  .ventajas__mission-history {
+    position: relative; }
+    @media (max-width: 48em) {
+      .ventajas__mission-history {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+  .ventajas__mission-titlebox {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center; }
+  .ventajas__mission-title {
+    font-size: 3rem;
+    font-weight: 600; }
+  .ventajas__mission-background {
+    position: absolute;
+    background: #62C7E4;
+    border-radius: 2.5rem;
+    top: 6.7%;
+    left: -1rem;
+    width: 40rem;
+    height: 39rem;
+    z-index: 10; }
+    @media (max-width: 48em) {
+      .ventajas__mission-background {
+        transform: translate(-50%, -50%);
+        top: 55%;
+        left: 30%;
+        width: 20rem;
+        height: 30rem; } }
+    @media (max-width: 17.9375em) {
+      .ventajas__mission-background {
+        width: 10rem;
+        height: 15rem; } }
+  .ventajas__mission-image {
+    max-width: 40.6rem;
+    max-height: 43.0rem;
+    margin-right: -4rem;
+    position: relative;
+    z-index: 28; }
+    @media (max-width: 48em) {
+      .ventajas__mission-image {
+        max-width: 30rem; } }
+    @media (max-width: 17.9375em) {
+      .ventajas__mission-image {
+        max-width: 20rem; } }
+  .ventajas__mission-img {
+    width: 100%;
+    height: 100%; }
+  .ventajas__mission-content {
+    padding: 3rem 4.5rem 4rem 5rem;
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    color: #7C7C7C;
+    text-align: justify;
+    max-width: 55rem;
+    line-height: 1.8;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 25; }
+    @media (max-width: 48em) {
+      .ventajas__mission-content {
+        margin: 0 auto;
+        padding: 2rem; } }
+
+.ventajas__vision {
+  background: #62C7E4;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .ventajas__vision-container {
+    max-width: 108rem;
+    padding: 1rem 3rem; }
+  @media (max-width: 48em) {
+    .ventajas__vision-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto; } }
+  .ventajas__vision-history {
+    position: relative; }
+    @media (max-width: 48em) {
+      .ventajas__vision-history {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+  .ventajas__vision-titlebox {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center; }
+  .ventajas__vision-title {
+    font-size: 3rem;
+    font-weight: 600; }
+  .ventajas__vision-background {
+    position: absolute;
+    background: #223163;
+    border-radius: 2.5rem;
+    top: 5.7%;
+    left: -1rem;
+    width: 40rem;
+    height: 39rem;
+    z-index: 10; }
+    @media (max-width: 48em) {
+      .ventajas__vision-background {
+        transform: translate(-50%, -50%);
+        top: 55%;
+        left: 30%;
+        width: 20rem;
+        height: 30rem; } }
+    @media (max-width: 17.9375em) {
+      .ventajas__vision-background {
+        width: 10rem;
+        height: 15rem; } }
+  .ventajas__vision-image {
+    max-width: 40.6rem;
+    max-height: 43.0rem;
+    margin-right: -4rem;
+    position: relative;
+    z-index: 28; }
+    @media (max-width: 48em) {
+      .ventajas__vision-image {
+        max-width: 30rem; } }
+    @media (max-width: 17.9375em) {
+      .ventajas__vision-image {
+        max-width: 20rem; } }
+  .ventajas__vision-img {
+    width: 100%;
+    height: 100%; }
+  .ventajas__vision-content {
+    padding: 3rem 4.5rem 4rem 5rem;
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    color: #7C7C7C;
+    text-align: justify;
+    max-width: 55rem;
+    line-height: 1.8;
+    font-size: 1.4rem;
+    position: relative;
+    z-index: 25; }
+    @media (max-width: 48em) {
+      .ventajas__vision-content {
+        margin: 0 auto;
+        padding: 2rem; } }
+
+.ventajas__eleccion p {
+  color: #7C7C7C;
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 70rem;
+  margin: auto; }
+
+.ventajas__eleccion-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.9rem; }
+
+.ventajas__eleccion-card {
+  padding: 1.5rem; }
+  .ventajas__eleccion-card p {
+    text-align: center; }
+
+.ventajas__eleccion-inside {
+  box-shadow: 0 5px 8px 0px rgba(0, 0, 0, 0.339);
+  border-radius: 2rem;
+  padding: 1rem 0; }
+
+.ventajas__eleccion-syphens {
+  max-width: 5.6rem;
+  max-height: 5.2rem;
+  margin: -3rem 0 0 2.7rem; }
+  .ventajas__eleccion-syphens img {
+    width: 100%;
+    height: 100%; }
+
+.ventajas__eleccion-text {
+  max-width: 30rem;
+  margin: auto;
+  padding: 1.5rem; }
+
+.ventajas__eleccion-img {
+  max-width: 39.4rem;
+  max-height: 5.7rem; }
+  .ventajas__eleccion-img img {
+    width: 100%;
+    height: 100%; }
+
+.ventajas__diferencia {
+  max-width: 75rem;
+  padding: 1rem 3rem;
+  margin: 6rem auto;
+  text-align: center; }
+  .ventajas__diferencia-content p {
+    font-size: 1.4rem;
+    margin: 1.5rem 0; }
+
+.ventajas__images {
+  display: grid !important;
+  grid-template-areas: 'head head head head head' '. prev cente next .';
+  align-items: center !important;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem; }
+
+/* CAROUSEL ARROWS STYLING */
+.slick-prev,
+.slick-next {
+  position: initial !important;
+  z-index: 1000 !important;
+  border-radius: 50% !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  transform: unset !important;
+  -webkit-transform: unset !important;
+  -ms-transform: unset !important;
+  font-weight: bolder !important; }
+
+.slick-prev,
+.slick-next {
+  grid-area: prev;
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.185) !important; }
+
+.slick-prev::before {
+  content: '<' !important;
+  font-size: 2rem !important;
+  line-height: 0.5 !important;
+  display: inline-block !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  color: #62C7E4 !important; }
+
+.slick-arrow:hover::before {
+  color: #FFFFFF !important; }
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #62C7E4 !important;
+  color: #FFFFFF !important; }
+
+.slick-next {
+  grid-area: next; }
+
+.slick-next::before {
+  content: '>' !important;
+  font-size: 2rem !important;
+  line-height: 0.5 !important;
+  display: inline-block !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  color: #62C7E4 !important; }
+
+/* CAROUSEL DOTS STYLING */
+.slick-dots {
+  grid-area: cente;
+  position: initial !important;
+  width: 100% !important;
+  overflow: hidden !important;
+  margin: 0 auto !important; }
+
+.slick-dots li {
+  color: #62C7E4 !important;
+  border-radius: 50% !important;
+  width: 1rem !important; }
+
+.slick-dots li button:before {
+  width: 1.29rem !important;
+  height: 1.58rem !important; }
+
+.slick-dots li.slick-active button:before {
+  color: #62C7E4 !important; }
+
+.slick-dots li button::before {
+  font-size: 0.9rem !important; }
+
+.slick-list {
+  grid-area: head; }
+
+.slick-track {
+  padding-top: 1rem; }

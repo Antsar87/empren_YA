@@ -1,0 +1,111 @@
+.footer {
+
+    &__flex {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+
+
+        &> :last-child {
+            margin-left: 5rem;
+
+            @media (max-width: 36em) {
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__content {
+        @media (max-width: 36em) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        & h4 {
+            margin-bottom: 4rem;
+        }
+    }
+
+
+    &__info {
+        display: flex;
+        align-items: center;
+        column-gap: 1.5rem;
+        -webkit-column-gap: 1.5rem;
+        -moz-column-gap: 1.5rem;
+
+
+        &>div>img {
+            width: 2rem;
+        }
+
+        &>div>p {
+            display: inline;
+            font-size: 1.5rem;
+            line-height: 1.4;
+        }
+    }
+
+    &__image {
+        max-width: 26rem;
+        margin: 4.5rem auto;
+    }
+
+    &__medias {
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        -webkit-column-gap: 2rem;
+        -moz-column-gap: 1rem;
+
+        & img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__copyright {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 5rem;
+        padding: 5rem 1.5rem;
+        border-top: 1px solid $color-grey;
+
+
+        @media (max-width: 29.75em) {
+            flex-direction: column;
+            align-items: center;
+            column-gap: 1rem;
+            -webkit-column-gap: 1rem;
+            -moz-column-gap: 1rem;
+        }
+    }
+
+    &__links-copy {
+        & a {
+            color: $color-secondary;
+            text-decoration: none;
+            font-size: 1.4rem;
+            margin-right: 3rem;
+
+            @media (max-width: 20em) {
+                display: block;
+                text-align: center;
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__text-copy {
+        font-size: 1.4rem;
+        color: $color-grey;
+    }
+}

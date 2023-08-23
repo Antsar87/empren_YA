@@ -1,0 +1,26 @@
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/utilities';
+
+@import 'components/bienvenida';
+@import 'components/cita-contacto';
+@import 'components/cita-form';
+@import 'components/cita-header';
+@import 'components/cita-opciones';
+@import 'components/conocenos-equipo';
+@import 'components/conocenos-header';
+@import 'components/doubts';
+@import 'components/features';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/help';
+@import 'components/meet';
+@import 'components/menu';
+@import 'components/paginations';
+
+@import 'pages/conocenos.scss';
+@import 'pages/home-inicio.scss';
+@import 'pages/localizacion.scss';
+@import 'pages/servicios.scss';
+@import 'pages/ventajas.scss';

@@ -16,14 +16,14 @@
   <body>
     <!-- NAVBAR/MENU SECTION -->
     <nav class="menu">
-      <div class="features__container">
+      <div class="features__container py-0">
         <!-- MENU GRANDE(768PX PARA ARRIBA) -->
         <div class="d-none d-md-block">
           <div class="menu__big">
             <!-- LOGO MENU -->
             <div class="menu__logo">
               <a href="index.html">
-                <img src="img/olimpya-logo.png" class="menu__logo" alt="" />
+                <img src="img/olimpya-logo.png" class="menu__logo" alt="image" loading="lazy" decoding="async" />
               </a>
             </div>
 
@@ -45,12 +45,12 @@
 
         <!-- MENU PEQUEÑO(768PX PARA ABAJO) -->
         <div class="menu__small p-md-0 p-2 d-md-none">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <!-- LOGO MENU -->
               <div class="menu__logo">
                 <a href="index.html">
-                  <img src="img/olimpya-logo.png" class="menu__logo" alt="" />
+                  <img src="img/olimpya-logo.png" class="menu__logo" alt="image" loading="lazy" decoding="async" />
                 </a>
               </div>
 
@@ -94,8 +94,8 @@
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
-        data-bs-ride="carousel"
-      >
+        >
+        <!-- data-bs-ride="carousel" -->
         <div class="carousel-indicators">
           <button
             type="button"
@@ -140,7 +140,7 @@
                 <img
                   src="img/header-logo.jpeg"
                   class="header__carousel-logo"
-                  alt=""
+                  alt="image" loading="lazy" decoding="async"
                 />
               </div>
 
@@ -175,7 +175,7 @@
               <img
                 src="img/feature-1.png"
                 class="features__img pb-3 pb-md-0"
-                alt=""
+                alt="image" loading="lazy" decoding="async"
               />
             </div>
           </div>
@@ -222,7 +222,7 @@
               <img
                 src="img/feature-2.png"
                 class="features__img pb-3 pb-md-0"
-                alt=""
+                alt="image" loading="lazy" decoding="async"
               />
             </div>
           </div>
@@ -235,13 +235,13 @@
               <img
                 src="img/feature-3.png"
                 class="features__img pb-3 pb-md-0"
-                alt=""
+                alt="image" loading="lazy" decoding="async"
               />
             </div>
           </div>
 
           <div class="col-sm-6">
-            <div class="features__content">
+            <div class="features__content ps-sm-5">
               <h2 class="border-title-tertiary">
                 Atención <span class="d-block">Personalizada</span>
               </h2>
@@ -264,8 +264,8 @@
 
     <!-- BIENVENIDA SECTION -->
     <section class="bienvenida">
-      <div class="features__container">
-        <div class="row mx-5">
+      <div class="">
+        <div class="row justify-content-center">
           <div class="col-sm-6">
             <div class="bienvenida__content">
               <h2 class="border-title-white">
@@ -305,20 +305,20 @@
             </div>
           </div>
 
-          <div class="col-sm-6 d-sm-block d-none">
+          <div class="col-sm-4 d-sm-block d-none">
             <div class="bienvenida__images">
               <div class="bienvenida__images-1">
-                <img src="img/bienvenida-blue-dots1.png" alt="" />
+                <img src="img/bienvenida-blue-dots1.png" alt="image" loading="lazy" decoding="async" />
               </div>
 
               <div class="bienvenida__images-2">
-                <img src="img/bienvenida-3.png" alt="" />
-                <img src="img/bienvenida-2.png" alt="" />
-                <img src="img/bienvenida-1.png" alt="" />
+                <img src="img/bienvenida-3.png" alt="image" loading="lazy" decoding="async" />
+                <img src="img/bienvenida-2.png" alt="image" loading="lazy" decoding="async" class="d-none d-lg-block"/>
+                <img src="img/bienvenida-1.png" alt="image" loading="lazy" decoding="async" class="d-none d-lg-block"/>
               </div>
 
               <div class="bienvenida__images-3">
-                <img src="img/bienvenida-blue-dots2.png" alt="" />
+                <img src="img/bienvenida-blue-dots2.png" alt="image" loading="lazy" decoding="async" />
               </div>
             </div>
           </div>
@@ -332,7 +332,7 @@
         <div class="row help__flex gx-0">
           <div class="col-md-5">
             <div class="help__image">
-              <img src="img/help-overlay.png" class="help__img" alt="" />
+              <img src="img/help-overlay.png" class="help__img" alt="image" loading="lazy" decoding="async" />
             </div>
           </div>
 
@@ -401,7 +401,7 @@
           </p>
 
           <div class="meet__image">
-            <img src="img/meet.png" class="meet__img" alt="" />
+            <img src="img/meet.png" class="meet__img" alt="image" loading="lazy" decoding="async" />
           </div>
 
           <div>
@@ -418,7 +418,7 @@
       <div class="row doubts__flex gx-0">
         <div class="col-md-2">
           <div class="doubts__dots">
-            <img src="img/horizontals-white-dots.png" class="doubts__img alt="">
+            <img src="img/horizontals-white-dots.png" class="doubts__img alt="image" loading="lazy" decoding="async">
           </div>
         </div>
 
@@ -451,7 +451,7 @@
             <img
               src="img/questions-marks.png"
               class="doubts__marks-img"
-              alt=""
+              alt="image" loading="lazy" decoding="async"
             />
           </div>
         </div>
@@ -460,9 +460,9 @@
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
-      <div class="features__container">
-        <div class="row gx-0 footer__flex">
-          <article class="col-sm-3">
+      <div class="container-large">
+        <div class="row align-items-center justify-content-center gx-0 footer__flex">
+          <article class="col-md-3">
             <div class="footer__content">
               <div>
                 <h4 class="color-secondary">Donde nos puedes encontrar</h4>
@@ -470,7 +470,7 @@
 
               <div class="footer__info mb-4">
                 <div>
-                  <img src="img/footer-icon1.png" alt="" />
+                  <img src="img/footer-icon1.png" alt="image" loading="lazy" decoding="async" />
                 </div>
 
                 <div>
@@ -483,7 +483,7 @@
 
               <div class="footer__info">
                 <div>
-                  <img src="img/footer-icon2.png" alt="" />
+                  <img src="img/footer-icon2.png" alt="image" loading="lazy" decoding="async" />
                 </div>
 
                 <div>
@@ -496,10 +496,10 @@
             </div>
           </article>
 
-          <article class="col-sm-4">
+          <article class="col-md-4">
             <div class="footer__content text-center">
               <div class="footer__image">
-                <img src="img/header-logo.jpeg" class="footer__img" alt="" />
+                <img src="img/header-logo.jpeg" class="footer__img" alt="image" loading="lazy" decoding="async" />
               </div>
 
               <div class="footer__medias">
@@ -507,41 +507,41 @@
                   ><img
                     src="img/footer-medias-1.png"
                     class="footer__img"
-                    alt=""
+                    alt="image" loading="lazy" decoding="async"
                 /></a>
                 <a href="#"
                   ><img
                     src="img/footer-medias-2.png"
                     class="footer__img"
-                    alt=""
+                    alt="image" loading="lazy" decoding="async"
                 /></a>
                 <a href="#"
                   ><img
                     src="img/footer-medias-3.png"
                     class="footer__img"
-                    alt=""
+                    alt="image" loading="lazy" decoding="async"
                 /></a>
                 <a href="#"
                   ><img
                     src="img/footer-medias-4.png"
                     class="footer__img"
-                    alt=""
+                    alt="image" loading="lazy" decoding="async"
                 /></a>
               </div>
             </div>
           </article>
 
-          <article class="col-sm-3">
+          <article class="col-md-3">
             <div class="footer__content">
               <div>
-                <h4 class="color-secondary mt-sm-0 mt-5">
+                <h4 class="color-secondary mt-md-0 mt-5">
                   Información de contacto:
                 </h4>
               </div>
 
               <div class="footer__info mb-5">
                 <div>
-                  <img src="img/footer-icon3.png" alt="" />
+                  <img src="img/footer-icon3.png" alt="image" loading="lazy" decoding="async" />
                 </div>
 
                 <div>
@@ -551,7 +551,7 @@
 
               <div class="footer__info">
                 <div>
-                  <img src="img/footer-icon4.png" alt="" />
+                  <img src="img/footer-icon4.png" alt="image" loading="lazy" decoding="async" />
                 </div>
 
                 <div>
@@ -563,8 +563,8 @@
         </div>
       </div>
 
-      <div class="footer__copyright">
-        <div class="footer__links-copy">
+      <div class="footer__copyright align-items-center flex-column flex-sm-row gap-2">
+        <div class="footer__links-copy d-flex justify-content-center text-center">
           <a href="#">Políticas de privacidad</a>
           <a href="#">Términos y Condiciones</a>
         </div>

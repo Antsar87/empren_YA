@@ -2,12 +2,14 @@
 $color-primary: #BAE8EE;
 $color-secondary: #223163;
 $color-tertiary: #62C7E4;
-$color-fourth: #7C7C7C;
+$color-fourth: #535353;
 
 $color-white: #FFFFFF;
 $color-black: #000000;
-$color-grey: #CCCCCC;
+$color-grey: #535353;
 $color-transparent-white: rgba(255, 255, 255, 0.897);
+
+$md-break: 756px;
 
 .color-primary {
     color: $color-primary;

@@ -1,21 +1,29 @@
 .container-large {
-    max-width: 120rem;
-    margin: 0 auto;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .text-default {
-    text-transform: none;
+  text-transform: none;
 }
 
 .px-7 {
-    padding: 0 7rem!important;
+  padding: 0 7rem !important;
 
-    @media (max-width: 48em) {
-        padding: 0!important;
-    }
+  @media (max-width: 48em) {
+    padding: 0 !important;
+  }
 }
 
 .py-7 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.mt-7 {
+  margin-top: 6rem;
+}
+
+.fs-md {
+  font-size: 1.8rem !important;
 }

@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "build": "sass sass/main.scss css/style.css --no-source-map --style=compressed",
+    "dev": "sass sass/main.scss css/style.css -w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
 }

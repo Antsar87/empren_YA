@@ -1,732 +1,886 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ventajas | OlimpYA</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <!-- CAROUSEL WITH SLICK -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR/MENU SECTION -->
     <nav class="menu">
-        <div class="container-large">
-            <!-- MENU GRANDE(768PX PARA ARRIBA) -->
-            <div class="d-none d-md-block">
-                <div class="menu__big">
-                    <!-- LOGO MENU -->
-                    <div class="menu__logo">
-                        <a href="index.html">
-                            <img src="img/olimpya-logo.png" class="menu__logo" alt="">
-                        </a>
-                    </div>
-
-                    <!-- LINKS AND BUTTON -->
-                    <ul class="menu__list">
-                        <li><a href="ventajas.html" class="link-active">Ventajas</a></li>
-                        <li><a href="conocenos.html">Conócenos</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
-                        <li><a href="localizacion.html">Localización</a></li>
-
-                        <div>
-                            <a href="cita.html" class="button button-outline-blue">Pedir Cita</a>
-                        </div>
-                    </ul>
-                </div>
+      <div class="features__container py-0">
+        <!-- MENU GRANDE(768PX PARA ARRIBA) -->
+        <div class="d-none d-md-block">
+          <div class="menu__big">
+            <!-- LOGO MENU -->
+            <div class="menu__logo">
+              <a href="index.html">
+                <img
+                  src="img/olimpya-logo.png"
+                  class="menu__logo"
+                  alt="image"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
             </div>
 
-            <!-- MENU PEQUEÑO(768PX PARA ABAJO) -->
-            <div class="menu__small p-md-0 p-2 d-md-none">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <!-- LOGO MENU -->
-                        <div class="menu__logo">
-                            <a href="index.html">
-                                <img src="img/olimpya-logo.png" class="menu__logo" alt="">
-                            </a>
-                        </div>
+            <!-- LINKS AND BUTTON -->
+            <ul class="menu__list">
+              <li><a href="ventajas.html" class="link-active">Ventajas</a></li>
+              <li><a href="conocenos.html">Conócenos</a></li>
+              <li><a href="servicios.html">Servicios</a></li>
+              <li><a href="localizacion.html">Localización</a></li>
 
-                        <!-- HAMBURGUER MENU -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <!-- CONTENT THAT'S INSIDE THE MENU -->
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-                            <!-- LINKS AND BUTTON -->
-                            <ul class="menu__list">
-                                <li><a href="ventajas.html" class="link-active">Ventajas</a></li>
-                                <li><a href="conocenos.html">Conócenos</a></li>
-                                <li><a href="servicios.html">Servicios</a></li>
-                                <li><a href="localizacion.html">Localización</a></li>
-
-                                <div class="py-4">
-                                    <a href="cita.html" class="button button-outline-blue">Pedir Cita</a>
-                                </div>
-                            </ul>
-
-                        </div>
-                    </div>
-                </nav>
-            </div>
+              <div>
+                <a href="cita.html" class="button button-outline-blue"
+                  >Pedir Cita</a
+                >
+              </div>
+            </ul>
+          </div>
         </div>
+
+        <!-- MENU PEQUEÑO(768PX PARA ABAJO) -->
+        <div class="menu__small p-md-0 p-2 d-md-none">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <!-- LOGO MENU -->
+              <div class="menu__logo">
+                <a href="index.html">
+                  <img
+                    src="img/olimpya-logo.png"
+                    class="menu__logo"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </a>
+              </div>
+
+              <!-- HAMBURGUER MENU -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- CONTENT THAT'S INSIDE THE MENU -->
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <!-- LINKS AND BUTTON -->
+                <ul class="menu__list">
+                  <li><a href="ventajas.html" class="link-active">Ventajas</a></li>
+                  <li><a href="conocenos.html">Conócenos</a></li>
+                  <li><a href="servicios.html">Servicios</a></li>
+                  <li><a href="localizacion.html">Localización</a></li>
+
+                  <div class="py-4">
+                    <a href="cita.html" class="button button-outline-blue"
+                      >Pedir Cita</a
+                    >
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
     </nav>
 
     <!-- VENTAJAS HEADER SECTION -->
-    <header class="ventajas-header">
-        <h2 class="border-title-white">Ventajas</h2>
-        <div class="border-bottom-title d-inline-block"></div>
+    <header class="ventajas-header mt-7">
+      <h2 class="border-title-white">Ventajas</h2>
+      <div class="border-bottom-title d-inline-block"></div>
     </header>
 
     <!-- PAGE SECTION -->
     <section class="paginations">
-        <div class="paginations__flex">
-
-            <div>
-                <a href="index.html" class="color-secondary text-decoration-none fs-5">Inicio</a>
-            </div>
-
-            <div>
-                <a href="cita.html"><img src="img/right-arrow.png" alt=""></a>
-            </div>
-
-            <div>
-                <a href="ventajas.html" class="color-tertiary text-decoration-none fs-5">
-                    Ventajas</a>
-            </div>
-
+      <div class="paginations__flex">
+        <div>
+          <a href="index.html" class="color-secondary text-decoration-none fs-5"
+            >Inicio</a
+          >
         </div>
+
+        <div>
+          <a href="cita.html"><img src="img/right-arrow.png" alt="" /></a>
+        </div>
+
+        <div>
+          <a
+            href="ventajas.html"
+            class="color-tertiary text-decoration-none fs-5"
+          >
+            Ventajas</a
+          >
+        </div>
+      </div>
     </section>
 
     <!-- EXPERIENCIA/CALIDAD/ATENCIÓN PERSONALIZADA SECTION -->
     <section class="features">
-        <div class="features__container">
-            <!-- FIRST SECTION FEATURES -->
-            <div class="row gx-0 py-5">
-                <div class="col-sm-6">
-                    <div class="features__content">
-                        <h2 class="border-title-tertiary">Ofrecemos los siguientes <span
-                                class="color-tertiary">beneficios</span></h2>
-                        <div class="border-bottom-title"></div>
+      <div class="features__container">
+        <!-- FIRST SECTION FEATURES -->
+        <div class="row gx-0 py-5">
+          <div class="col-sm-6">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">
+                Ofrecemos los siguientes
+                <span class="color-tertiary">beneficios</span>
+              </h2>
+              <div class="border-bottom-title"></div>
 
-                        <p class="my-3 color-fourth">Nuestro compromiso es brindarte un <span class="color-secondary">
-                                servicio
-                                excepcional y personalizado
-                            </span>, adaptado a tus
-                            necesidades específicas.
-                        </p>
+              <p class="my-3 color-fourth">
+                Nuestro compromiso es brindarte un
+                <span class="color-secondary">
+                  servicio excepcional y personalizado </span
+                >, adaptado a tus necesidades específicas.
+              </p>
 
-                        <p class="color-fourth">
-                            Nuestro equipo
-                            <span class="color-tertiary">altamente capacitado y actualizado se asegura
-                                de estar al tanto de los avances más recientes</span>
-                            en el campo de la salud.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="features__image order-sm-last order-first">
-                        <img src="img/ventajas-1.png" class="features__img pb-3 pb-md-0" alt="">
-                    </div>
-                </div>
+              <p class="color-fourth">
+                Nuestro equipo
+                <span class="color-tertiary"
+                  >altamente capacitado y actualizado se asegura de estar al
+                  tanto de los avances más recientes</span
+                >
+                en el campo de la salud.
+              </p>
             </div>
+          </div>
 
-            <!-- SECOND SECTION FEATURES-->
-            <div class="row gx-0 pb-5">
-                <div class="col-sm-6 order-sm-first order-last">
-                    <div class="features__image">
-                        <img src="img/ventajas-2.png" class="features__img pb-3 pb-md-0" alt="">
-                    </div>
-                </div>
-
-                <div class="col-sm-6 ps-0 ps-sm-5">
-                    <div class="features__content">
-                        <h2 class="border-title-tertiary">Valoramos tu <span class="color-tertiary">bienestar</span>
-                            individual</h2>
-                        <div class="border-bottom-title"></div>
-
-                        <p class="my-md-5 my-0 color-fourth">Y nos
-                            esforzamos por proporcionarte un tratamiento
-                            integral y efectivo. <span class="color-tertiary">Utilizamos técnicas
-                                vanguardistas respaldadas por la última
-                                tecnología para garantizar resultados óptimos.</span>
-                            Además, nuestra comunicación abierta y
-                            transparente te brinda tranquilidad y te permite
-                            estar informado en cada paso del proceso.</p>
-                    </div>
-                </div>
+          <div class="col-sm-6">
+            <div class="features__image order-sm-last order-first">
+              <img
+                src="img/ventajas-1.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
             </div>
-
-            <!-- THIRD SECTION FEATURES-->
-            <div class="row gx-0 pb-5">
-                <div class="col-sm-6">
-                    <div class="features__content">
-                        <h2 class="border-title-tertiary">
-                            Un equipo atento y <span class="d-block color-tertiary">Comprometido</span>
-                        </h2>
-                        <div class="border-bottom-title"></div>
-
-                        <p class="my-md-5 my-0 color-fourth">Encontrarás en nosotros un equipo atento y
-                            comprometido que <span class="color-tertiary">se preocupa por tu
-                                comodidad y seguridad</span>. <span class="color-secondary">Tu confianza y
-                                tranquilidad es nuestra prioridad</span> y estamos aquí
-                            para ayudarte en tu camino hacia la
-                            recuperación y el bienestar.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6">
-                    <div class="features__image">
-                        <img src="img/ventajas-3.png" class="features__img pb-3 pb-md-0" alt="">
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <!-- SECOND SECTION FEATURES-->
+        <div class="row gx-0 pb-5">
+          <div class="col-sm-6 order-sm-first order-last">
+            <div class="features__image">
+              <img
+                src="img/ventajas-2.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-6 ps-0 ps-sm-5">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">
+                Valoramos tu
+                <span class="color-tertiary">bienestar</span> individual
+              </h2>
+              <div class="border-bottom-title"></div>
+
+              <p class="my-md-5 my-0 color-fourth">
+                Y nos esforzamos por proporcionarte un tratamiento integral y
+                efectivo.
+                <span class="color-tertiary"
+                  >Utilizamos técnicas vanguardistas respaldadas por la última
+                  tecnología para garantizar resultados óptimos.</span
+                >
+                Además, nuestra comunicación abierta y transparente te brinda
+                tranquilidad y te permite estar informado en cada paso del
+                proceso.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- THIRD SECTION FEATURES-->
+        <div class="row gx-0 pb-5">
+          <div class="col-sm-6">
+            <div class="features__content">
+              <h2 class="border-title-tertiary">
+                Un equipo atento y
+                <span class="d-block color-tertiary">Comprometido</span>
+              </h2>
+              <div class="border-bottom-title"></div>
+
+              <p class="my-md-5 my-0 color-fourth">
+                Encontrarás en nosotros un equipo atento y comprometido que
+                <span class="color-tertiary"
+                  >se preocupa por tu comodidad y seguridad</span
+                >.
+                <span class="color-secondary"
+                  >Tu confianza y tranquilidad es nuestra prioridad</span
+                >
+                y estamos aquí para ayudarte en tu camino hacia la recuperación
+                y el bienestar.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="features__image">
+              <img
+                src="img/ventajas-3.png"
+                class="features__img pb-3 pb-md-0"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- MISIÓN SECTION -->
     <section class="ventajas__mission">
-        <div class="ventajas__mission-container">
-            <div class="row ventajas__mission-flex py-7">
-                <div class="col-md-4 ventajas__mission-history">
-                    <div class="ventajas__mission-titlebox">
-                        <h2 class="ventajas__mission-title">Misión</h2>
-                    </div>
-
-                    <div class="ventajas__mission-background"></div>
-                    <div class="ventajas__mission-image"><img src="img/ventajas-mision.png"
-                            class="ventajas__mission-img" alt=""></div>
-
-                </div>
-
-                <div class="col-md-7">
-                    <div class="ventajas__mission-content">
-
-                        <div>
-                            <h3 class="border-title-ventajas">En Olimpya<span class="color-tertiary">Fisio</span></h3>
-                            <div class="border-bottom-ventajas-title mb-5"></div>
-                        </div>
-
-                        <p>Nuestra misión es brindar una
-                            atención integral y especializada en fisioterapia, con
-                            un enfoque humano y personalizado para cada uno de nuestros pacientes.
-                        </p>
-
-                        <p>
-                            Nos comprometemos <span class="color-tertiary">a
-                                promover el bienestar físico y emocional, ayudando a superar lesiones, mejorar la
-                                funcionalidad y potenciar
-                                el rendimiento deportivo.</span>
-                        </p>
-
-                        <p>
-                            Nuestra pasión es <span class="color-secondary">lograr
-                                que cada persona alcance su máximo potencial y
-                                disfrute de una vida plena, libre de dolor y
-                                limitaciones físicas</span>. Contamos con terapias
-                            innovadoras y profesionales altamente capacitados
-                            para ser un aliado en el camino hacia una vida activa
-                            y saludable.
-                        </p>
-                    </div>
-
-                </div>
+      <div class="ventajas__mission-container">
+        <div class="row ventajas__mission-flex py-7">
+          <div class="col-md-4 ventajas__mission-history">
+            <div class="ventajas__mission-titlebox">
+              <h2 class="ventajas__mission-title">Misión</h2>
             </div>
+
+            <div class="ventajas__mission-background"></div>
+            <div class="ventajas__mission-image">
+              <img
+                src="img/ventajas-mision.png"
+                class="ventajas__mission-img"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="ventajas__mission-content">
+              <div>
+                <h3 class="border-title-ventajas">
+                  En Olimpya<span class="color-tertiary">Fisio</span>
+                </h3>
+                <div class="border-bottom-ventajas-title mb-5"></div>
+              </div>
+
+              <p>
+                Nuestra misión es brindar una atención integral y especializada
+                en fisioterapia, con un enfoque humano y personalizado para cada
+                uno de nuestros pacientes.
+              </p>
+
+              <p>
+                Nos comprometemos
+                <span class="color-tertiary"
+                  >a promover el bienestar físico y emocional, ayudando a
+                  superar lesiones, mejorar la funcionalidad y potenciar el
+                  rendimiento deportivo.</span
+                >
+              </p>
+
+              <p>
+                Nuestra pasión es
+                <span class="color-secondary"
+                  >lograr que cada persona alcance su máximo potencial y
+                  disfrute de una vida plena, libre de dolor y limitaciones
+                  físicas</span
+                >. Contamos con terapias innovadoras y profesionales altamente
+                capacitados para ser un aliado en el camino hacia una vida
+                activa y saludable.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- VENTAJA SECTION -->
     <section class="ventajas__vision">
-        <div class="ventajas__vision-container">
-            <div class="row ventajas__vision-flex py-7">
-                <div class="col-md-4 ventajas__vision-history">
-                    <div class="ventajas__vision-titlebox">
-                        <h2 class="ventajas__vision-title">Visión</h2>
-                    </div>
-
-                    <div class="ventajas__vision-background"></div>
-                    <div class="ventajas__vision-image"><img src="img/ventajas-vision.png" class="ventajas__vision-img"
-                            alt=""></div>
-
-                </div>
-
-
-                <div class="col-md-7">
-                    <div class="ventajas__vision-content">
-
-                        <div>
-                            <h3 class="border-title-ventajas">En Olimpya<span class="color-tertiary">Fisio</span></h3>
-                            <div class="border-bottom-ventajas-title mb-5"></div>
-                        </div>
-
-                        <p>Nuestros valores fundamentales
-                            guían nuestra práctica diaria y definen nuestra relación
-                            con los pacientes:
-                        </p>
-
-                        <div class="d-flex gap-4">
-                            <div>
-                                <img src="img/y-logo.png" alt="">
-                            </div>
-
-                            <div>
-                                <p><span class="color-tertiary">Excelencia en la atención:</span> Nos esforzamos por
-                                    ofrecer un servicio de fisioterapia de alta
-                                    calidad, respaldado por un equipo profesional
-                                    altamente capacitado y en constante
-                                    actualización.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-4">
-                            <div>
-                                <img src="img/y-logo.png" alt="">
-                            </div>
-
-                            <div>
-                                <p><span class="color-tertiary">Empatía hacia nuestros pacientes:</span> Valoramos
-                                    la comprensión de las necesidades únicas de
-                                    cada individuo, brindándoles una atención
-                                    cercana y personalizada.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-4">
-                            <div>
-                                <img src="img/y-logo.png" alt="">
-                            </div>
-
-                            <div>
-                                <p><span class="color-tertiary">Compromiso con el bienestar:</span> Nos
-                                    comprometemos a ser un apoyo constante en
-                                    el proceso de recuperación y mejora física de
-                                    nuestros pacientes.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex gap-4">
-                            <div>
-                                <img src="img/y-logo.png" alt="">
-                            </div>
-
-                            <div>
-                                <p><span class="color-tertiary">Integridad y ética:</span> Garantizamos la
-                                    transparencia y el respeto en todas nuestras
-                                    interacciones, siendo referentes en el cuidado
-                                    de la salud.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+      <div class="ventajas__vision-container">
+        <div class="row ventajas__vision-flex py-7">
+          <div class="col-md-4 ventajas__vision-history">
+            <div class="ventajas__vision-titlebox">
+              <h2 class="ventajas__vision-title">Visión</h2>
             </div>
-        </div>
-    </section>
 
+            <div class="ventajas__vision-background"></div>
+            <div class="ventajas__vision-image">
+              <img
+                src="img/ventajas-vision.png"
+                class="ventajas__vision-img"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-md-7">
+            <div class="ventajas__vision-content">
+              <div>
+                <h3 class="border-title-ventajas">
+                  En Olimpya<span class="color-tertiary">Fisio</span>
+                </h3>
+                <div class="border-bottom-ventajas-title mb-5"></div>
+              </div>
+
+              <p>
+                Nuestros valores fundamentales guían nuestra práctica diaria y
+                definen nuestra relación con los pacientes:
+              </p>
+
+              <div class="d-flex gap-4">
+                <div>
+                  <img src="img/y-logo.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="color-tertiary"
+                      >Excelencia en la atención:</span
+                    >
+                    Nos esforzamos por ofrecer un servicio de fisioterapia de
+                    alta calidad, respaldado por un equipo profesional altamente
+                    capacitado y en constante actualización.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-4">
+                <div>
+                  <img src="img/y-logo.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="color-tertiary"
+                      >Empatía hacia nuestros pacientes:</span
+                    >
+                    Valoramos la comprensión de las necesidades únicas de cada
+                    individuo, brindándoles una atención cercana y
+                    personalizada.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-4">
+                <div>
+                  <img src="img/y-logo.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="color-tertiary"
+                      >Compromiso con el bienestar:</span
+                    >
+                    Nos comprometemos a ser un apoyo constante en el proceso de
+                    recuperación y mejora física de nuestros pacientes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="d-flex gap-4">
+                <div>
+                  <img src="img/y-logo.png" alt="" />
+                </div>
+
+                <div>
+                  <p>
+                    <span class="color-tertiary">Integridad y ética:</span>
+                    Garantizamos la transparencia y el respeto en todas nuestras
+                    interacciones, siendo referentes en el cuidado de la salud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- ELECCION DE CLIENTES CAROUSEL SECTION -->
     <section class="ventajas__eleccion px-5 px-md-0">
-        <div class="container-large">
-
-            <!-- TITLE AND SUBTITLE CAROUSEL -->
-            <div class="cita-opciones__title my-5">
-                <h2 class="border-title-tertiary text-default fw-bold mb-3">Descubre por qué nuestros clientes <span
-                        class="d-block">eligen <span class="color-tertiary">OlimpyaFisio</span></span>
-                </h2>
-                <div class="border-bottom-title d-inline-block ms-5"></div>
-            </div>
-
-            <div class="mb-5">
-                <p>Nos enorgullece compartir las opiniones de quienes han experimentado resultados excepcionales con
-                    nuestros servicios</p>
-            </div>
-
-            <div class="row responsive gx-0 ventajas__images my-5">
-
-                <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-                 <div class="col-md-3 ventajas__eleccion-card">
-
-                    <div class="ventajas__eleccion-inside">
-                     <div class="ventajas__eleccion-syphens">
-                         <img src="img/syphens.png" alt="">
-                     </div>
- 
-                     <div class="ventajas__eleccion-text">
-                         <p>Me gusto mucho el trato que tuvieron con mi hijo, muy recomendado por su buen trato y su
-                             profesionalismo</p>
-                     </div>
- 
-                     <div class="ventajas__eleccion-img">
-                         <img src="img/carousel-img.png" alt="">
-                     </div>
-                    </div>
-                 </div>
-
-
-
-            </div>
+      <div class="container-large">
+        <!-- TITLE AND SUBTITLE CAROUSEL -->
+        <div class="cita-opciones__title my-5">
+          <h2 class="border-title-tertiary text-default fw-bold mb-3">
+            Descubre por qué nuestros clientes
+            <span class="d-block"
+              >eligen <span class="color-tertiary">OlimpyaFisio</span></span
+            >
+          </h2>
+          <div class="border-bottom-title d-inline-block ms-5"></div>
         </div>
+
+        <div class="mb-5">
+          <p>
+            Nos enorgullece compartir las opiniones de quienes han experimentado
+            resultados excepcionales con nuestros servicios
+          </p>
+        </div>
+
+        <div class="row responsive gx-0 ventajas__images my-5">
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ventajas__eleccion-card">
+            <div class="ventajas__eleccion-inside">
+              <div class="ventajas__eleccion-syphens">
+                <img src="img/syphens.png" alt="" />
+              </div>
+
+              <div class="ventajas__eleccion-text">
+                <p>
+                  Me gusto mucho el trato que tuvieron con mi hijo, muy
+                  recomendado por su buen trato y su profesionalismo
+                </p>
+              </div>
+
+              <div class="ventajas__eleccion-img">
+                <img src="img/carousel-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- DIFERENCIA A OLIMPYAFISIO SECTION -->
     <section class="ventajas__diferencia">
-        <div class="ventajas__diferencia-container">
-
-            <div class="text-center">
-                <h2 class="border-title-tertiary text-default">¿Qué diferencia a <span
-                        class="color-tertiary">OlimpyaFisio?</span></h2>
-                <div class="border-bottom-title d-inline-block mt-5"></div>
-            </div>
-
-            <div class="ventajas__diferencia-content">
-                <p>En OlimpyaFisio destacamos entre el resto de clínicas de fisioterapia por <span
-                        class="color-tertiary fw-bold">nuestro enfoque integral y
-                        personalizado para cada paciente</span>. Nuestro equipo de profesionales se compromete a
-                    proporcionar un
-                    servicio de excelencia, <span class="color-secondary fw-bold">respaldado por técnicas innovadoras
-                        gracias a nuestras salas de readaptación
-                        deportiva.</span> Nos diferenciamos por la utilización de terapias invasivas, permitiéndonos
-                    abordar de manera
-                    efectiva una amplia gama de lesiones y trastornos físicos.</p>
-
-                <p>
-                    Elige Olimpya Fisio y descubre cómo nuestra experiencia, enfoque personalizado y dedicación marcan
-                    la diferencia en el cuidado de tu salud.
-                </p>
-
-                <div class="mt-5">
-                    <a href="cita.html" class="button button-blue">Pedir Cita</a>
-                </div>
-            </div>
-
+      <div class="ventajas__diferencia-container">
+        <div class="text-center">
+          <h2 class="border-title-tertiary text-default">
+            ¿Qué diferencia a <span class="color-tertiary">OlimpyaFisio?</span>
+          </h2>
+          <div class="border-bottom-title d-inline-block mt-5"></div>
         </div>
+
+        <div class="ventajas__diferencia-content">
+          <p>
+            En OlimpyaFisio destacamos entre el resto de clínicas de
+            fisioterapia por
+            <span class="color-tertiary fw-bold"
+              >nuestro enfoque integral y personalizado para cada paciente</span
+            >. Nuestro equipo de profesionales se compromete a proporcionar un
+            servicio de excelencia,
+            <span class="color-secondary fw-bold"
+              >respaldado por técnicas innovadoras gracias a nuestras salas de
+              readaptación deportiva.</span
+            >
+            Nos diferenciamos por la utilización de terapias invasivas,
+            permitiéndonos abordar de manera efectiva una amplia gama de
+            lesiones y trastornos físicos.
+          </p>
+
+          <p>
+            Elige Olimpya Fisio y descubre cómo nuestra experiencia, enfoque
+            personalizado y dedicación marcan la diferencia en el cuidado de tu
+            salud.
+          </p>
+
+          <div class="mt-5">
+            <a href="cita.html" class="button button-blue">Pedir Cita</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER SECTION -->
     <footer class="footer">
-        <div class="container-large">
-            <div class="row gx-0 footer__flex">
-                <article class="col-sm-3">
-                    <div class="footer__content">
+      <div class="container-large">
+        <div
+          class="row align-items-center justify-content-center gx-0 footer__flex"
+        >
+          <article class="col-md-3">
+            <div class="footer__content">
+              <div>
+                <h4 class="color-secondary">Donde nos puedes encontrar</h4>
+              </div>
 
-                        <div>
-                            <h4 class="color-secondary">Donde nos puedes encontrar</h4>
-                        </div>
+              <div class="footer__info mb-4">
+                <div>
+                  <img
+                    src="img/footer-icon1.png"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
 
-                        <div class="footer__info mb-4">
-                            <div>
-                                <img src="img/footer-icon1.png" alt="">
-                            </div>
+                <div>
+                  <p>
+                    <span class="d-block">Av Sucre 124 Frontera Sur.</span>
+                    Malaga - España
+                  </p>
+                </div>
+              </div>
 
-                            <div>
-                                <p><span class="d-block">Av Sucre 124 Frontera Sur.</span> Malaga - España</p>
-                            </div>
-                        </div>
+              <div class="footer__info">
+                <div>
+                  <img
+                    src="img/footer-icon2.png"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
 
-                        <div class="footer__info">
-                            <div>
-                                <img src="img/footer-icon2.png" alt="">
-                            </div>
-
-                            <div>
-                                <p><span class="d-block">Lunes a Viernes</span> 8:00 am. - 6:00 pm.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </article>
-
-                <article class="col-sm-4">
-                    <div class="footer__content text-center">
-
-                        <div class="footer__image">
-                            <img src="img/header-logo.jpeg" class="footer__img" alt="">
-                        </div>
-
-                        <div class="footer__medias">
-                            <a href="#"><img src="img/footer-medias-1.png" class="footer__img" alt=""></a>
-                            <a href="#"><img src="img/footer-medias-2.png" class="footer__img" alt=""></a>
-                            <a href="#"><img src="img/footer-medias-3.png" class="footer__img" alt=""></a>
-                            <a href="#"><img src="img/footer-medias-4.png" class="footer__img" alt=""></a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="col-sm-3">
-                    <div class="footer__content">
-
-                        <div>
-                            <h4 class="color-secondary mt-sm-0 mt-5">Información de contacto:</h4>
-                        </div>
-
-                        <div class="footer__info mb-5">
-
-                            <div>
-                                <img src="img/footer-icon3.png" alt="">
-                            </div>
-
-                            <div>
-                                <p>Teléfono: (+45) 152
-                                    9683</p>
-                            </div>
-
-                        </div>
-
-                        <div class="footer__info">
-
-                            <div>
-                                <img src="img/footer-icon4.png" alt="">
-                            </div>
-
-                            <div>
-                                <p>Email:
-                                    info@olimpya.com.es</p>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </article>
+                <div>
+                  <p>
+                    <span class="d-block">Lunes a Viernes</span> 8:00 am. - 6:00
+                    pm.
+                  </p>
+                </div>
+              </div>
             </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="footer__content text-center">
+              <div class="footer__image">
+                <img
+                  src="img/header-logo.jpeg"
+                  class="footer__img"
+                  alt="image"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+
+              <div class="footer__medias">
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-1.png"
+                    class="footer__img"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-2.png"
+                    class="footer__img"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-3.png"
+                    class="footer__img"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="img/footer-medias-4.png"
+                    class="footer__img"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                /></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-3">
+            <div class="footer__content">
+              <div>
+                <h4 class="color-secondary mt-md-0 mt-5">
+                  Información de contacto:
+                </h4>
+              </div>
+
+              <div class="footer__info mb-5">
+                <div>
+                  <img
+                    src="img/footer-icon3.png"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+
+                <div>
+                  <p>Teléfono: (+45) 152 9683</p>
+                </div>
+              </div>
+
+              <div class="footer__info">
+                <div>
+                  <img
+                    src="img/footer-icon4.png"
+                    alt="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+
+                <div>
+                  <p>Email: info@olimpya.com.es</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div
+        class="footer__copyright align-items-center flex-column flex-sm-row gap-2"
+      >
+        <div
+          class="footer__links-copy d-flex justify-content-center text-center"
+        >
+          <a href="#">Políticas de privacidad</a>
+          <a href="#">Términos y Condiciones</a>
         </div>
 
-        <div class="footer__copyright">
-
-            <div class="footer__links-copy">
-                <a href="#">Políticas de privacidad</a>
-                <a href="#">Términos y Condiciones</a>
-            </div>
-
-            <div class="footer__text-copy">
-                <p>Copyright &copy; 2023 Olimpyafisio</p>
-            </div>
+        <div class="footer__text-copy">
+          <p>Copyright &copy; 2023 Olimpyafisio</p>
         </div>
+      </div>
     </footer>
 
     <!-- BOOTSTRAP JAVASCRIPT LINK/SCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- FUNCIONATILY OF THE CAROUSEL WITH SLICK -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
-        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+      integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script>
-        $('.responsive').slick({
-            dots: true,
-            arrows: true,
-            infinite: true,
-            speed: 1000,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            responsive: [
-                {
-                    breakpoint: 730, /* 707px PARA ABAJO */
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        infinite: true,
-                        dots: false
-                    },
-                },
-                {
-                    breakpoint: 530, /* 530px PARA ABAJO */
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
+      $('.responsive').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+          {
+            breakpoint: 730 /* 707px PARA ABAJO */,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 530 /* 530px PARA ABAJO */,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
     </script>
-</body>
-
+  </body>
 </html>

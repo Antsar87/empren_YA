@@ -7,9 +7,11 @@
     &__container {
        max-width: 108rem;
        padding: 1rem 3rem;
+       margin-right: auto;
+       margin-left: auto;
     }
 
-    &__image {
+    &__image { 
         max-width: 56.3rem;
         max-height: 49.5rem;
 
@@ -35,13 +37,13 @@
             color: $color-grey;
             max-width: 40rem;
 
-            @media (max-width: 48em) {
-                padding-top: 1.5rem;
-            }
+            // @media (max-width: 48em) {
+            //     padding-top: 1.5rem;
+            // }
 
-            @media (max-width: 43.75em) {
-                font-size: 1.4rem;
-            }
+            // @media (max-width: 43.75em) {
+            //     font-size: 1.4rem;
+            // }
 
         }
 

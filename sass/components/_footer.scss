@@ -9,14 +9,14 @@
         &> :last-child {
             margin-left: 5rem;
 
-            @media (max-width: 36em) {
+            @media (max-width: $md-break) {
                 margin-left: 0;
             }
         }
     }
 
     &__content {
-        @media (max-width: 36em) {
+        @media (max-width: $md-break) {
             display: flex;
             flex-direction: column;
             justify-content: center;
